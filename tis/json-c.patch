@@ -1,0 +1,16 @@
+diff --git a/linkhash.c b/linkhash.c
+index b021ef1..43a6a4c 100644
+--- a/linkhash.c
++++ b/linkhash.c
+@@ -263,7 +263,11 @@ static uint32_t hashlittle(const void *key, size_t length, uint32_t initval)
+ 	a = b = c = 0xdeadbeef + ((uint32_t)length) + initval;
+ 
+ 	u.ptr = key;
++#ifdef __TRUSTINSOFT_HELPER__
++	if (HASH_LITTLE_ENDIAN && (((intptr_t)(u.ptr) & 0x3) == 0)) {
++#else
+ 	if (HASH_LITTLE_ENDIAN && ((u.i & 0x3) == 0)) {
++#endif
+ 		const uint32_t *k = (const uint32_t *)key; /* read 32-bit chunks */
+ 
+ 		/*------ all but last block: aligned reads and affect 32 bits of (a,b,c) */
