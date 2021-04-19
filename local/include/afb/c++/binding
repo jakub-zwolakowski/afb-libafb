@@ -1,0 +1,23 @@
+/*
+ * Copyright (C) 2015-2021 IoT.bzh Company
+ * Author: José Bollo <jose.bollo@iot.bzh>
+ *
+ * SPDX-License-Identifier: LGPL-3.0-only
+ */
+#pragma once
+
+/* ensure version */
+#ifndef AFB_BINDING_VERSION
+# define AFB_BINDING_VERSION   4
+#endif
+
+#if AFB_BINDING_VERSION == 3
+#  include "binding-wrap-v3.hpp"
+#  include "binding-object-v3.hpp"
+#elif AFB_BINDING_VERSION == 4
+#  include "binding-wrap-v4.hpp"
+#  include "binding-object-v4.hpp"
+#else
+#  error "AFB_BINDING_VERSION must be set to 3 or 4"
+#endif
+
