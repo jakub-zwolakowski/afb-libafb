@@ -2,8 +2,9 @@
 	path = afb-binding
 	url = https://github.com/redpesk-core/afb-binding.git
 [submodule "json-c"]
-	path = json-c
-	url = https://github.com/json-c/json-c.git
+  path = json-c
+  url = ../json-c.git
+  branch = tis-afb
 [submodule "check"]
 	path = check
 	url = https://github.com/libcheck/check.git

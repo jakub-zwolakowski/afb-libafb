@@ -15,6 +15,7 @@ struct Suite { const char *name; } tis_suite;
 Suite * suite_create(const char *name) { return &tis_suite; }
 void srunner_add_suite(SRunner * sr, Suite * s) { }
 void suite_add_tcase (Suite * s, TCase * tc) { }
+void tcase_set_timeout(TCase * tc, double timeout) { }
 
 void _mark_point(const char *file, int line) {
   printf ("%s:%d: _mark_point\n", file, line);
@@ -63,6 +64,7 @@ void _tcase_add_test(TCase * tc, const TTest * ttest,
   ttest->fn (0);
   if (tc->teardown) tc->teardown ();
 }
+
 
 //==============================================================================
 

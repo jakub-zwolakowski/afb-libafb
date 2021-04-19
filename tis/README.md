@@ -16,7 +16,6 @@ $ make install
 $ cd ../..
 
 $ cd json-c/
-$ git apply ../tis/json-c.patch
 $ mkdir build
 $ cd build
 $ cmake .. -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
