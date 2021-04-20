@@ -1,0 +1,582 @@
+[
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-api-common.c.o   -c ../../../src/libafb/core/afb-api-common.c",
+  "file": "../../../src/libafb/core/afb-api-common.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-api-v3.c.o   -c ../../../src/libafb/core/afb-api-v3.c",
+  "file": "../../../src/libafb/core/afb-api-v3.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-api-v4.c.o   -c ../../../src/libafb/core/afb-api-v4.c",
+  "file": "../../../src/libafb/core/afb-api-v4.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-apiname.c.o   -c ../../../src/libafb/core/afb-apiname.c",
+  "file": "../../../src/libafb/core/afb-apiname.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-apiset.c.o   -c ../../../src/libafb/core/afb-apiset.c",
+  "file": "../../../src/libafb/core/afb-apiset.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-auth.c.o   -c ../../../src/libafb/core/afb-auth.c",
+  "file": "../../../src/libafb/core/afb-auth.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-calls.c.o   -c ../../../src/libafb/core/afb-calls.c",
+  "file": "../../../src/libafb/core/afb-calls.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-common.c.o   -c ../../../src/libafb/core/afb-common.c",
+  "file": "../../../src/libafb/core/afb-common.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-cred.c.o   -c ../../../src/libafb/core/afb-cred.c",
+  "file": "../../../src/libafb/core/afb-cred.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-data.c.o   -c ../../../src/libafb/core/afb-data.c",
+  "file": "../../../src/libafb/core/afb-data.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-error-text.c.o   -c ../../../src/libafb/core/afb-error-text.c",
+  "file": "../../../src/libafb/core/afb-error-text.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-ev-mgr.c.o   -c ../../../src/libafb/core/afb-ev-mgr.c",
+  "file": "../../../src/libafb/core/afb-ev-mgr.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-evt.c.o   -c ../../../src/libafb/core/afb-evt.c",
+  "file": "../../../src/libafb/core/afb-evt.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-global.c.o   -c ../../../src/libafb/core/afb-global.c",
+  "file": "../../../src/libafb/core/afb-global.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-hook-flags.c.o   -c ../../../src/libafb/core/afb-hook-flags.c",
+  "file": "../../../src/libafb/core/afb-hook-flags.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-hook.c.o   -c ../../../src/libafb/core/afb-hook.c",
+  "file": "../../../src/libafb/core/afb-hook.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-jobs.c.o   -c ../../../src/libafb/core/afb-jobs.c",
+  "file": "../../../src/libafb/core/afb-jobs.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-json-legacy.c.o   -c ../../../src/libafb/core/afb-json-legacy.c",
+  "file": "../../../src/libafb/core/afb-json-legacy.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-perm.c.o   -c ../../../src/libafb/core/afb-perm.c",
+  "file": "../../../src/libafb/core/afb-perm.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-permission-text.c.o   -c ../../../src/libafb/core/afb-permission-text.c",
+  "file": "../../../src/libafb/core/afb-permission-text.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-req-common.c.o   -c ../../../src/libafb/core/afb-req-common.c",
+  "file": "../../../src/libafb/core/afb-req-common.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-req-v3.c.o   -c ../../../src/libafb/core/afb-req-v3.c",
+  "file": "../../../src/libafb/core/afb-req-v3.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-req-v4.c.o   -c ../../../src/libafb/core/afb-req-v4.c",
+  "file": "../../../src/libafb/core/afb-req-v4.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-sched.c.o   -c ../../../src/libafb/core/afb-sched.c",
+  "file": "../../../src/libafb/core/afb-sched.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-session.c.o   -c ../../../src/libafb/core/afb-session.c",
+  "file": "../../../src/libafb/core/afb-session.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-sig-monitor.c.o   -c ../../../src/libafb/core/afb-sig-monitor.c",
+  "file": "../../../src/libafb/core/afb-sig-monitor.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-token.c.o   -c ../../../src/libafb/core/afb-token.c",
+  "file": "../../../src/libafb/core/afb-token.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-type-predefined.c.o   -c ../../../src/libafb/core/afb-type-predefined.c",
+  "file": "../../../src/libafb/core/afb-type-predefined.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-type.c.o   -c ../../../src/libafb/core/afb-type.c",
+  "file": "../../../src/libafb/core/afb-type.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/core/afb-v4-itf.c.o   -c ../../../src/libafb/core/afb-v4-itf.c",
+  "file": "../../../src/libafb/core/afb-v4-itf.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/expand-json.c.o   -c ../../../src/libafb/utils/expand-json.c",
+  "file": "../../../src/libafb/utils/expand-json.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/expand-vars.c.o   -c ../../../src/libafb/utils/expand-vars.c",
+  "file": "../../../src/libafb/utils/expand-vars.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/globmatch.c.o   -c ../../../src/libafb/utils/globmatch.c",
+  "file": "../../../src/libafb/utils/globmatch.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/globset.c.o   -c ../../../src/libafb/utils/globset.c",
+  "file": "../../../src/libafb/utils/globset.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/json-locator.c.o   -c ../../../src/libafb/utils/json-locator.c",
+  "file": "../../../src/libafb/utils/json-locator.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/jsonstr.c.o   -c ../../../src/libafb/utils/jsonstr.c",
+  "file": "../../../src/libafb/utils/jsonstr.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/locale-root.c.o   -c ../../../src/libafb/utils/locale-root.c",
+  "file": "../../../src/libafb/utils/locale-root.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/lockany.c.o   -c ../../../src/libafb/utils/lockany.c",
+  "file": "../../../src/libafb/utils/lockany.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/path-search.c.o   -c ../../../src/libafb/utils/path-search.c",
+  "file": "../../../src/libafb/utils/path-search.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/pearson.c.o   -c ../../../src/libafb/utils/pearson.c",
+  "file": "../../../src/libafb/utils/pearson.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/sha1.c.o   -c ../../../src/libafb/utils/sha1.c",
+  "file": "../../../src/libafb/utils/sha1.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/u16id.c.o   -c ../../../src/libafb/utils/u16id.c",
+  "file": "../../../src/libafb/utils/u16id.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/uuid.c.o   -c ../../../src/libafb/utils/uuid.c",
+  "file": "../../../src/libafb/utils/uuid.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/websock.c.o   -c ../../../src/libafb/utils/websock.c",
+  "file": "../../../src/libafb/utils/websock.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/wrap-json.c.o   -c ../../../src/libafb/utils/wrap-json.c",
+  "file": "../../../src/libafb/utils/wrap-json.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/utils/ws.c.o   -c ../../../src/libafb/utils/ws.c",
+  "file": "../../../src/libafb/utils/ws.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/sys/ev-mgr.c.o   -c ../../../src/libafb/sys/ev-mgr.c",
+  "file": "../../../src/libafb/sys/ev-mgr.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/sys/process-name.c.o   -c ../../../src/libafb/sys/process-name.c",
+  "file": "../../../src/libafb/sys/process-name.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/sys/subpath.c.o   -c ../../../src/libafb/sys/subpath.c",
+  "file": "../../../src/libafb/sys/subpath.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/sys/systemd.c.o   -c ../../../src/libafb/sys/systemd.c",
+  "file": "../../../src/libafb/sys/systemd.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/sys/verbose.c.o   -c ../../../src/libafb/sys/verbose.c",
+  "file": "../../../src/libafb/sys/verbose.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/sys/x-dynlib.c.o   -c ../../../src/libafb/sys/x-dynlib.c",
+  "file": "../../../src/libafb/sys/x-dynlib.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/sys/x-uio.c.o   -c ../../../src/libafb/sys/x-uio.c",
+  "file": "../../../src/libafb/sys/x-uio.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/http/afb-hreq.c.o   -c ../../../src/libafb/http/afb-hreq.c",
+  "file": "../../../src/libafb/http/afb-hreq.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/http/afb-hsrv.c.o   -c ../../../src/libafb/http/afb-hsrv.c",
+  "file": "../../../src/libafb/http/afb-hsrv.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/http/afb-hswitch.c.o   -c ../../../src/libafb/http/afb-hswitch.c",
+  "file": "../../../src/libafb/http/afb-hswitch.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/http/afb-method.c.o   -c ../../../src/libafb/http/afb-method.c",
+  "file": "../../../src/libafb/http/afb-method.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/http/afb-websock.c.o   -c ../../../src/libafb/http/afb-websock.c",
+  "file": "../../../src/libafb/http/afb-websock.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/apis/afb-api-dbus.c.o   -c ../../../src/libafb/apis/afb-api-dbus.c",
+  "file": "../../../src/libafb/apis/afb-api-dbus.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/apis/afb-api-so-v3.c.o   -c ../../../src/libafb/apis/afb-api-so-v3.c",
+  "file": "../../../src/libafb/apis/afb-api-so-v3.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/apis/afb-api-so-v4.c.o   -c ../../../src/libafb/apis/afb-api-so-v4.c",
+  "file": "../../../src/libafb/apis/afb-api-so-v4.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/apis/afb-api-so.c.o   -c ../../../src/libafb/apis/afb-api-so.c",
+  "file": "../../../src/libafb/apis/afb-api-so.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/apis/afb-api-ws.c.o   -c ../../../src/libafb/apis/afb-api-ws.c",
+  "file": "../../../src/libafb/apis/afb-api-ws.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/misc/afb-autoset.c.o   -c ../../../src/libafb/misc/afb-autoset.c",
+  "file": "../../../src/libafb/misc/afb-autoset.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/misc/afb-debug.c.o   -c ../../../src/libafb/misc/afb-debug.c",
+  "file": "../../../src/libafb/misc/afb-debug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/misc/afb-monitor.c.o   -c ../../../src/libafb/misc/afb-monitor.c",
+  "file": "../../../src/libafb/misc/afb-monitor.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/misc/afb-socket.c.o   -c ../../../src/libafb/misc/afb-socket.c",
+  "file": "../../../src/libafb/misc/afb-socket.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/misc/afb-supervision.c.o   -c ../../../src/libafb/misc/afb-supervision.c",
+  "file": "../../../src/libafb/misc/afb-supervision.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/misc/afb-systemd.c.o   -c ../../../src/libafb/misc/afb-systemd.c",
+  "file": "../../../src/libafb/misc/afb-systemd.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/misc/afb-trace.c.o   -c ../../../src/libafb/misc/afb-trace.c",
+  "file": "../../../src/libafb/misc/afb-trace.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/misc/afb-watchdog.c.o   -c ../../../src/libafb/misc/afb-watchdog.c",
+  "file": "../../../src/libafb/misc/afb-watchdog.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/misc/afb-ws.c.o   -c ../../../src/libafb/misc/afb-ws.c",
+  "file": "../../../src/libafb/misc/afb-ws.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/wsapi/afb-proto-ws.c.o   -c ../../../src/libafb/wsapi/afb-proto-ws.c",
+  "file": "../../../src/libafb/wsapi/afb-proto-ws.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/wsapi/afb-stub-ws.c.o   -c ../../../src/libafb/wsapi/afb-stub-ws.c",
+  "file": "../../../src/libafb/wsapi/afb-stub-ws.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/wsapi/afb-wsapi.c.o   -c ../../../src/libafb/wsapi/afb-wsapi.c",
+  "file": "../../../src/libafb/wsapi/afb-wsapi.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/wsj1/afb-ws-json1.c.o   -c ../../../src/libafb/wsj1/afb-ws-json1.c",
+  "file": "../../../src/libafb/wsj1/afb-ws-json1.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/wsj1/afb-wsj1.c.o   -c ../../../src/libafb/wsj1/afb-wsj1.c",
+  "file": "../../../src/libafb/wsj1/afb-wsj1.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/extend/afb-extend.c.o   -c ../../../src/libafb/extend/afb-extend.c",
+  "file": "../../../src/libafb/extend/afb-extend.c"
+},
+{
+  "directory": "../../../tis/build/build/src/libafb",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/libafb.dir/tls/tls.c.o   -c ../../../src/libafb/tls/tls.c",
+  "file": "../../../src/libafb/tls/tls.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-afb-data.dir/test-afb-data.c.o   -c ../../../src/tests/test-afb-data.c",
+  "file": "../../../src/tests/test-afb-data.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-afb-type.dir/test-afb-type.c.o   -c ../../../src/tests/test-afb-type.c",
+  "file": "../../../src/tests/test-afb-type.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-api-v3.dir/test-api-v3.c.o   -c ../../../src/tests/test-api-v3.c",
+  "file": "../../../src/tests/test-api-v3.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-token.dir/test-token.c.o   -c ../../../src/tests/test-token.c",
+  "file": "../../../src/tests/test-token.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-afb-evt.dir/test-afb-evt.c.o   -c ../../../src/tests/test-afb-evt.c",
+  "file": "../../../src/tests/test-afb-evt.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-req-common.dir/test-req-common.c.o   -c ../../../src/tests/test-req-common.c",
+  "file": "../../../src/tests/test-req-common.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-expand-json.dir/test-expand-json.c.o   -c ../../../src/tests/test-expand-json.c",
+  "file": "../../../src/tests/test-expand-json.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-req-v3.dir/test-req-v3.c.o   -c ../../../src/tests/test-req-v3.c",
+  "file": "../../../src/tests/test-req-v3.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-globset.dir/test-globset.c.o   -c ../../../src/tests/test-globset.c",
+  "file": "../../../src/tests/test-globset.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-wrap-json.dir/test-wrap-json.c.o   -c ../../../src/tests/test-wrap-json.c",
+  "file": "../../../src/tests/test-wrap-json.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-apiset.dir/test-apiset.c.o   -c ../../../src/tests/test-apiset.c",
+  "file": "../../../src/tests/test-apiset.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-wsapi.dir/test-wsapi.c.o   -c ../../../src/tests/test-wsapi.c",
+  "file": "../../../src/tests/test-wsapi.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-ev-mgr.dir/test-ev-mgr.c.o   -c ../../../src/tests/test-ev-mgr.c",
+  "file": "../../../src/tests/test-ev-mgr.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-afb-jobs.dir/test-afb-jobs.c.o   -c ../../../src/tests/test-afb-jobs.c",
+  "file": "../../../src/tests/test-afb-jobs.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-sig-monitor.dir/test-sig-monitor.c.o   -c ../../../src/tests/test-sig-monitor.c",
+  "file": "../../../src/tests/test-sig-monitor.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-api-common.dir/test-api-common.c.o   -c ../../../src/tests/test-api-common.c",
+  "file": "../../../src/tests/test-api-common.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-sched.dir/test-sched.c.o   -c ../../../src/tests/test-sched.c",
+  "file": "../../../src/tests/test-sched.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-session.dir/test-session.c.o   -c ../../../src/tests/test-session.c",
+  "file": "../../../src/tests/test-session.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-u16id.dir/test-u16id.c.o   -c ../../../src/tests/test-u16id.c",
+  "file": "../../../src/tests/test-u16id.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-afb-auth.dir/test-afb-auth.c.o   -c ../../../src/tests/test-afb-auth.c",
+  "file": "../../../src/tests/test-afb-auth.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-path-search.dir/test-path-search.c.o   -c ../../../src/tests/test-path-search.c",
+  "file": "../../../src/tests/test-path-search.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-expand-vars.dir/test-expand-vars.c.o   -c ../../../src/tests/test-expand-vars.c",
+  "file": "../../../src/tests/test-expand-vars.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-json-locator.dir/test-json-locator.c.o   -c ../../../src/tests/test-json-locator.c",
+  "file": "../../../src/tests/test-json-locator.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-api-so-v4.dir/test-api-so-v4.c.o   -c ../../../src/tests/test-api-so-v4.c",
+  "file": "../../../src/tests/test-api-so-v4.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/../libafb    -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/test-afb-calls.dir/test-afb-calls.c.o   -c ../../../src/tests/test-afb-calls.c",
+  "file": "../../../src/tests/test-afb-calls.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dhello_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/hello.dir/hello.c.o   -c ../../../src/tests/test-bindings/hello.c",
+  "file": "../../../src/tests/test-bindings/hello.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG13 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug13_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug13.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG11 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug11_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug11.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG12 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug12_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug12.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG14 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug14_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug14.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG15 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug15_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug15.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG20 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug20_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug20.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG16 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug16_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug16.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG17 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug17_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug17.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG18 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug18_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug18.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG21 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug21_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug21.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+},
+{
+  "directory": "../../../tis/build/build/src/tests/test-bindings",
+  "command": "/usr/bin/cc -DAFB_VERSION=\\\"4.0.0\\\" -DBUG19 -DTEST_SOURCE_DIR=\\\"../../../src/tests/\\\" -Dbug19_EXPORTS -I../../../include -I../../../tis/root/include -I../../../tis/root/include/json-c -I/usr/include/uuid -I../../../tis/build/build/src -I../../../tis/build/build/src/libafb -I../../../src/tests/test-bindings/../libafb  -fPIC   -Wall -Wextra -Wconversion -Wincompatible-pointer-types -Wno-unused-parameter -Wsign-compare -Wsign-conversion -Werror=maybe-uninitialized -Werror=implicit-function-declaration -ffunction-sections -fdata-sections -fPIC -g -O2 -o CMakeFiles/bug19.dir/bug.c.o   -c ../../../src/tests/test-bindings/bug.c",
+  "file": "../../../src/tests/test-bindings/bug.c"
+}
+]

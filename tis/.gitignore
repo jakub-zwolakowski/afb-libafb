@@ -1,0 +1,8 @@
+/build/*
+!/build/json-c
+!/build/build
+/build/*/*
+!/build/json-c/compile_commands.json
+!/build/build/compile_commands.json
+/root/*
+!/root/include

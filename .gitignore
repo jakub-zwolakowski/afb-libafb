@@ -1,13 +1,5 @@
-docs/
-build/*
-!build/compile_commands.json
-doxygen-output/
+/docs/
+/build/
+/doxygen-output/
 .vscode/*.json
 *.swp
-local/*
-!local/include
-afb-binding-build/
-check-build/
-json-c-build/*
-!json-c-build/compile_commands.json
-tis_compile_deps.log
