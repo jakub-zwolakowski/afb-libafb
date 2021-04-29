@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/json_parse.dir/json_parse.c.o -o json_parse  -Wl,-rpath,/home/qba/git/afb-libafb/tis/build/json-c ../libjson-c.so.5.0.0 

@@ -1,0 +1,6 @@
+/home/qba/git/afb-libafb/tis/build/afb-binding/CMakeFiles/install/strip.dir
+/home/qba/git/afb-libafb/tis/build/afb-binding/CMakeFiles/install.dir
+/home/qba/git/afb-libafb/tis/build/afb-binding/CMakeFiles/install/local.dir
+/home/qba/git/afb-libafb/tis/build/afb-binding/CMakeFiles/list_install_components.dir
+/home/qba/git/afb-libafb/tis/build/afb-binding/CMakeFiles/edit_cache.dir
+/home/qba/git/afb-libafb/tis/build/afb-binding/CMakeFiles/rebuild_cache.dir

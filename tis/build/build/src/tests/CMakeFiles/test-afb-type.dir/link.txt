@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test-afb-type.dir/test-afb-type.c.o -o test-afb-type  -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined ../libafb/libafb.a -lpthread -L/home/qba/git/afb-libafb/tis/root/lib -ljson-c -ldl -lrt -L/home/qba/git/afb-libafb/tis/root/lib -lcheck -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined 

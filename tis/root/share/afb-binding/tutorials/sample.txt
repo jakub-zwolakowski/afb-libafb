@@ -1,0 +1,61 @@
+Sample commands for API hello and monitor HELLO 4
+=================================================
+
+monitor get {"apis":true}
+
+hello success
+hello fail
+hello ping     true
+hello ping     ["string",{"object":true},4]
+hello ping     {"x":0,"y":0}
+
+hello bug
+
+hello broadcast {"name":"hi-all","data":{"priority":5,"item":null}}
+
+hello subcall {"api":"hello","verb":"ping","args":"subcall"}
+hello subcallsync {"api":"hello","verb":"ping","args":"subcallsync"}
+hello call {"api":"hello","verb":"ping","args":"call"}
+hello callsync {"api":"hello","verb":"ping","args":"callsync"}
+
+hello eventadd {"tag":"tagev1","name":"event-1"}
+hello broadcast {"tag":"tagev1","data":true}
+hello eventsub {"tag":"tagev1"}
+hello eventpush {"tag":"tagev1","data":true}
+hello eventunsub {"tag":"tagev1"}
+hello eventdel {"tag":"tagev1"}
+
+hello exit 0
+
+
+
+Sample commands for API hello and monitor HELLO 3
+=================================================
+
+monitor get {"apis":true}
+
+hello ping     true
+hello pingfail true
+hello pingnull true
+hello pingbug  true
+hello pingjson ["string",{"object":true},4]
+
+hello pingevent {"x":0,"y":0}
+
+hello subcall {"api":"hello","verb":"ping","args":["string",{"object":true},4]}
+hello subcallsync {"api":"hello","verb":"ping","args":true}
+hello call {"api":"hello","verb":"ping","args":true}
+hello callsync {"api":"hello","verb":"ping","args":true}
+
+hello eventadd {"tag":"tagev1","name":"event-1"}
+hello broadcast {"tag":"tagev1","data":true}
+hello eventsub {"tag":"tagev1"}
+hello eventpush {"tag":"tagev1","data":true}
+hello eventunsub {"tag":"tagev1"}
+hello eventdel {"tag":"tagev1"}
+
+hello appid true
+hello uid true
+
+hello exit 0
+

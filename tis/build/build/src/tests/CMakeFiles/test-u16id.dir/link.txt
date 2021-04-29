@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test-u16id.dir/test-u16id.c.o -o test-u16id  -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined ../libafb/libafb.a -lpthread -L/home/qba/git/afb-libafb/tis/root/lib -ljson-c -ldl -lrt -L/home/qba/git/afb-libafb/tis/root/lib -lcheck -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined 

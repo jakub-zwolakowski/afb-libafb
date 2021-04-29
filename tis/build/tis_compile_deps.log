@@ -1,0 +1,1244 @@
+-- The C compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_COMPILE_COMMANDS
+
+
+-- Build files have been written to: /home/qba/git/afb-libafb/tis/build/afb-binding
+Install the project...
+-- Install configuration: ""
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-binding-x4-itf.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-event-x2-itf.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-export.map
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/c++
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/c++/binding-object-v4.hpp
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/c++/binding-object-v3.hpp
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/c++/binding
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/c++/binding-wrap-v4.hpp
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/c++/binding-wrap-v3.hpp
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-binding-v4.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-session.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-api-x3-itf.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-event-x2.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-binding.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-binding-x4.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-req-subcall-flags.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-req-x2-itf.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-binding
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-api-x3.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-req-x2.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-errno.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-ctlid.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-arg.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-binding-v3.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-auth.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/afb/afb-verbosity.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/pkgconfig/afb-binding.pc
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/afb-desktop-package.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/afb-binding-vocabulary.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/afb-events-guide.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/afb-binding-tutorial-v4.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/index.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/afb-binding-references.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v3
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v3/func-service.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v3/func-req.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v3/func-api.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v3/func-event.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v3/types-and-globals.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v3/macro-log.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v3/func-daemon.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/pictures
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/pictures/signaling-basis.svg
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/afb-binding-overview.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/predefined-afb-type.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/func-afb-data.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/func-afb-api.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/func-afb-timer.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/func-afb-req.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/func-afb-evfd.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/func-afb-data-array.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/types-and-globals.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/func-afb-type.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/macro-log.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/func-afb-event.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/reference-v4/func-afb-misc.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/afb-binding-tutorial-v3.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/afb-binding-book.yml
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/docs/REVISIONS.md
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v3
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v3/tuto-app1.c
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v3/Makefile
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v3/tuto-4.c
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v3/tuto-2.c
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v3/tuto-3.cpp
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v3/hello3.c
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v3/tuto-5.cpp
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v3/tuto-1.c
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/sample.txt
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v4
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v4/hello4pp.cpp
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v4/hello4.c
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v4/Makefile
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v4/tuto-3.cpp
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/v4/tuto-1.c
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/afb-binding/tutorials/Makefile
+CMake Deprecation Warning at CMakeLists.txt:3 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+CMake Deprecation Warning at apps/CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - found
+-- Looking for getrusage
+-- Looking for getrusage - found
+-- Wrote /home/qba/git/afb-libafb/tis/build/json-c/apps_config.h
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for stdarg.h
+-- Looking for stdarg.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for syslog.h
+-- Looking for syslog.h - found
+-- Looking for 4 include files stdlib.h, ..., float.h
+-- Looking for 4 include files stdlib.h, ..., float.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for endian.h
+-- Looking for endian.h - found
+-- Looking for limits.h
+-- Looking for limits.h - found
+-- Looking for locale.h
+-- Looking for locale.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for sys/cdefs.h
+-- Looking for sys/cdefs.h - found
+-- Looking for sys/param.h
+-- Looking for sys/param.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for xlocale.h
+-- Looking for xlocale.h - not found
+-- Looking for _isnan
+-- Looking for _isnan - not found
+-- Looking for _finite
+-- Looking for _finite - not found
+-- Looking for INFINITY
+-- Looking for INFINITY - found
+-- Looking for isinf
+-- Looking for isinf - found
+-- Looking for isnan
+-- Looking for isnan - found
+-- Looking for nan
+-- Looking for nan - found
+-- Looking for _doprnt
+-- Looking for _doprnt - not found
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for vasprintf
+-- Looking for vasprintf - found
+-- Looking for vsnprintf
+-- Looking for vsnprintf - found
+-- Looking for vprintf
+-- Looking for vprintf - found
+-- Looking for open
+-- Looking for open - found
+-- Looking for realloc
+-- Looking for realloc - found
+-- Looking for setlocale
+-- Looking for setlocale - found
+-- Looking for uselocale
+-- Looking for uselocale - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for strncasecmp
+-- Looking for strncasecmp - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for vsyslog
+-- Looking for vsyslog - found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for strtoull
+-- Looking for strtoull - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of int
+-- Check size of int - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Performing Test HAS_GNU_WARNING_LONG
+-- Performing Test HAS_GNU_WARNING_LONG - Failed
+-- Performing Test HAVE_ATOMIC_BUILTINS
+-- Performing Test HAVE_ATOMIC_BUILTINS - Success
+-- Performing Test HAVE___THREAD
+-- Performing Test HAVE___THREAD - Success
+-- Wrote /home/qba/git/afb-libafb/tis/build/json-c/config.h
+-- Wrote /home/qba/git/afb-libafb/tis/build/json-c/json_config.h
+-- Performing Test REENTRANT_WORKS
+-- Performing Test REENTRANT_WORKS - Success
+-- Performing Test BSYMBOLIC_WORKS
+-- Performing Test BSYMBOLIC_WORKS - Success
+-- Performing Test VERSION_SCRIPT_WORKS
+-- Performing Test VERSION_SCRIPT_WORKS - Success
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.13") found components: doxygen dot 
+-- Wrote /home/qba/git/afb-libafb/tis/build/json-c/doc/Doxyfile
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qba/git/afb-libafb/tis/build/json-c
+[  1%] Building C object CMakeFiles/json-c-static.dir/arraylist.c.o
+[  2%] Building C object CMakeFiles/json-c-static.dir/debug.c.o
+[  3%] Building C object CMakeFiles/json-c-static.dir/json_c_version.c.o
+[  4%] Building C object CMakeFiles/json-c-static.dir/json_object.c.o
+[  6%] Building C object CMakeFiles/json-c-static.dir/json_object_iterator.c.o
+[  7%] Building C object CMakeFiles/json-c-static.dir/json_pointer.c.o
+[  8%] Building C object CMakeFiles/json-c-static.dir/json_tokener.c.o
+[  9%] Building C object CMakeFiles/json-c-static.dir/json_util.c.o
+[ 11%] Building C object CMakeFiles/json-c-static.dir/json_visit.c.o
+[ 12%] Building C object CMakeFiles/json-c-static.dir/linkhash.c.o
+[ 13%] Building C object CMakeFiles/json-c-static.dir/printbuf.c.o
+[ 14%] Building C object CMakeFiles/json-c-static.dir/random_seed.c.o
+[ 16%] Building C object CMakeFiles/json-c-static.dir/strerror_override.c.o
+[ 17%] Linking C static library libjson-c.a
+[ 17%] Built target json-c-static
+[ 18%] Building C object CMakeFiles/json-c.dir/arraylist.c.o
+[ 19%] Building C object CMakeFiles/json-c.dir/debug.c.o
+[ 20%] Building C object CMakeFiles/json-c.dir/json_c_version.c.o
+[ 22%] Building C object CMakeFiles/json-c.dir/json_object.c.o
+[ 23%] Building C object CMakeFiles/json-c.dir/json_object_iterator.c.o
+[ 24%] Building C object CMakeFiles/json-c.dir/json_pointer.c.o
+[ 25%] Building C object CMakeFiles/json-c.dir/json_tokener.c.o
+[ 27%] Building C object CMakeFiles/json-c.dir/json_util.c.o
+[ 28%] Building C object CMakeFiles/json-c.dir/json_visit.c.o
+[ 29%] Building C object CMakeFiles/json-c.dir/linkhash.c.o
+[ 30%] Building C object CMakeFiles/json-c.dir/printbuf.c.o
+[ 32%] Building C object CMakeFiles/json-c.dir/random_seed.c.o
+[ 33%] Building C object CMakeFiles/json-c.dir/strerror_override.c.o
+[ 34%] Linking C shared library libjson-c.so
+[ 34%] Built target json-c
+[ 35%] Building C object tests/CMakeFiles/test_visit.dir/test_visit.c.o
+[ 37%] Linking C executable test_visit
+[ 37%] Built target test_visit
+[ 38%] Building C object tests/CMakeFiles/test_util_file.dir/test_util_file.c.o
+[ 39%] Building C object tests/CMakeFiles/test_util_file.dir/__/strerror_override.c.o
+[ 40%] Linking C executable test_util_file
+[ 40%] Built target test_util_file
+[ 41%] Building C object tests/CMakeFiles/test_set_value.dir/test_set_value.c.o
+[ 43%] Linking C executable test_set_value
+[ 43%] Built target test_set_value
+[ 44%] Building C object tests/CMakeFiles/test_parse_int64.dir/test_parse_int64.c.o
+[ 45%] Linking C executable test_parse_int64
+[ 45%] Built target test_parse_int64
+[ 46%] Building C object tests/CMakeFiles/test_parse.dir/test_parse.c.o
+[ 48%] Linking C executable test_parse
+[ 48%] Built target test_parse
+[ 49%] Building C object tests/CMakeFiles/testReplaceExisting.dir/testReplaceExisting.c.o
+[ 50%] Linking C executable testReplaceExisting
+[ 50%] Built target testReplaceExisting
+[ 51%] Building C object tests/CMakeFiles/test_printbuf.dir/test_printbuf.c.o
+[ 53%] Linking C executable test_printbuf
+[ 53%] Built target test_printbuf
+[ 54%] Building C object tests/CMakeFiles/test_double_serializer.dir/test_double_serializer.c.o
+[ 55%] Linking C executable test_double_serializer
+[ 55%] Built target test_double_serializer
+[ 56%] Building C object tests/CMakeFiles/test4.dir/test4.c.o
+[ 58%] Linking C executable test4
+[ 58%] Built target test4
+[ 59%] Building C object tests/CMakeFiles/test2Formatted.dir/test2.c.o
+[ 60%] Building C object tests/CMakeFiles/test2Formatted.dir/parse_flags.c.o
+[ 61%] Linking C executable test2Formatted
+[ 61%] Built target test2Formatted
+[ 62%] Building C object tests/CMakeFiles/test_null.dir/test_null.c.o
+[ 64%] Linking C executable test_null
+[ 64%] Built target test_null
+[ 65%] Building C object tests/CMakeFiles/test2.dir/test2.c.o
+[ 66%] Linking C executable test2
+[ 66%] Built target test2
+[ 67%] Building C object tests/CMakeFiles/test1Formatted.dir/test1.c.o
+[ 69%] Building C object tests/CMakeFiles/test1Formatted.dir/parse_flags.c.o
+[ 70%] Linking C executable test1Formatted
+[ 70%] Built target test1Formatted
+[ 71%] Building C object tests/CMakeFiles/test_charcase.dir/test_charcase.c.o
+[ 72%] Linking C executable test_charcase
+[ 72%] Built target test_charcase
+[ 74%] Building C object tests/CMakeFiles/test_cast.dir/test_cast.c.o
+[ 75%] Linking C executable test_cast
+[ 75%] Built target test_cast
+[ 76%] Building C object tests/CMakeFiles/test_object_iterator.dir/test_object_iterator.c.o
+[ 77%] Linking C executable test_object_iterator
+[ 77%] Built target test_object_iterator
+[ 79%] Building C object tests/CMakeFiles/test_set_serializer.dir/test_set_serializer.c.o
+[ 80%] Linking C executable test_set_serializer
+[ 80%] Built target test_set_serializer
+[ 81%] Building C object tests/CMakeFiles/test1.dir/test1.c.o
+[ 82%] Linking C executable test1
+[ 82%] Built target test1
+[ 83%] Building C object tests/CMakeFiles/test_compare.dir/test_compare.c.o
+[ 85%] Linking C executable test_compare
+[ 85%] Built target test_compare
+[ 86%] Building C object tests/CMakeFiles/test_deep_copy.dir/test_deep_copy.c.o
+[ 87%] Linking C executable test_deep_copy
+[ 87%] Built target test_deep_copy
+[ 88%] Building C object tests/CMakeFiles/test_float.dir/test_float.c.o
+[ 90%] Linking C executable test_float
+[ 90%] Built target test_float
+[ 91%] Building C object tests/CMakeFiles/test_int_add.dir/test_int_add.c.o
+[ 92%] Linking C executable test_int_add
+[ 92%] Built target test_int_add
+[ 93%] Building C object tests/CMakeFiles/test_json_pointer.dir/test_json_pointer.c.o
+[ 95%] Linking C executable test_json_pointer
+[ 95%] Built target test_json_pointer
+[ 96%] Building C object tests/CMakeFiles/test_locale.dir/test_locale.c.o
+[ 97%] Linking C executable test_locale
+[ 97%] Built target test_locale
+[ 98%] Building C object apps/CMakeFiles/json_parse.dir/json_parse.c.o
+[100%] Linking C executable json_parse
+[100%] Built target json_parse
+Consolidate compiler generated dependencies of target json-c-static
+[ 17%] Built target json-c-static
+Consolidate compiler generated dependencies of target json-c
+[ 34%] Built target json-c
+Consolidate compiler generated dependencies of target test_visit
+[ 37%] Built target test_visit
+Consolidate compiler generated dependencies of target test_util_file
+[ 40%] Built target test_util_file
+Consolidate compiler generated dependencies of target test_set_value
+[ 43%] Built target test_set_value
+Consolidate compiler generated dependencies of target test_parse_int64
+[ 45%] Built target test_parse_int64
+Consolidate compiler generated dependencies of target test_parse
+[ 48%] Built target test_parse
+Consolidate compiler generated dependencies of target testReplaceExisting
+[ 50%] Built target testReplaceExisting
+Consolidate compiler generated dependencies of target test_printbuf
+[ 53%] Built target test_printbuf
+Consolidate compiler generated dependencies of target test_double_serializer
+[ 55%] Built target test_double_serializer
+Consolidate compiler generated dependencies of target test4
+[ 58%] Built target test4
+Consolidate compiler generated dependencies of target test2Formatted
+[ 61%] Built target test2Formatted
+Consolidate compiler generated dependencies of target test_null
+[ 64%] Built target test_null
+Consolidate compiler generated dependencies of target test2
+[ 66%] Built target test2
+Consolidate compiler generated dependencies of target test1Formatted
+[ 70%] Built target test1Formatted
+Consolidate compiler generated dependencies of target test_charcase
+[ 72%] Built target test_charcase
+Consolidate compiler generated dependencies of target test_cast
+[ 75%] Built target test_cast
+Consolidate compiler generated dependencies of target test_object_iterator
+[ 77%] Built target test_object_iterator
+Consolidate compiler generated dependencies of target test_set_serializer
+[ 80%] Built target test_set_serializer
+Consolidate compiler generated dependencies of target test1
+[ 82%] Built target test1
+Consolidate compiler generated dependencies of target test_compare
+[ 85%] Built target test_compare
+Consolidate compiler generated dependencies of target test_deep_copy
+[ 87%] Built target test_deep_copy
+Consolidate compiler generated dependencies of target test_float
+[ 90%] Built target test_float
+Consolidate compiler generated dependencies of target test_int_add
+[ 92%] Built target test_int_add
+Consolidate compiler generated dependencies of target test_json_pointer
+[ 95%] Built target test_json_pointer
+Consolidate compiler generated dependencies of target test_locale
+[ 97%] Built target test_locale
+Consolidate compiler generated dependencies of target json_parse
+[100%] Built target json_parse
+Install the project...
+-- Install configuration: "debug"
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/libjson-c.so.5.0.0
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/libjson-c.so.5
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/libjson-c.so
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/libjson-c.a
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/cmake/json-c/json-c-targets.cmake
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/cmake/json-c/json-c-targets-debug.cmake
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/cmake/json-c/json-c-config.cmake
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/pkgconfig/json-c.pc
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_config.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/arraylist.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/debug.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_c_version.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_inttypes.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_object.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_object_iterator.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_pointer.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_tokener.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_types.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_util.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/json_visit.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/linkhash.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/json-c/printbuf.h
+-- The C compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Setting build type to 'Debug' as none was specified.
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include files sys/types.h, errno.h
+-- Looking for include files sys/types.h, errno.h - found
+-- Looking for 3 include files sys/types.h, ..., inttypes.h
+-- Looking for 3 include files sys/types.h, ..., inttypes.h - found
+-- Looking for 4 include files sys/types.h, ..., limits.h
+-- Looking for 4 include files sys/types.h, ..., limits.h - found
+-- Looking for 5 include files sys/types.h, ..., regex.h
+-- Looking for 5 include files sys/types.h, ..., regex.h - found
+-- Looking for 6 include files sys/types.h, ..., signal.h
+-- Looking for 6 include files sys/types.h, ..., signal.h - found
+-- Looking for 7 include files sys/types.h, ..., stdarg.h
+-- Looking for 7 include files sys/types.h, ..., stdarg.h - found
+-- Looking for 8 include files sys/types.h, ..., stdint.h
+-- Looking for 8 include files sys/types.h, ..., stdint.h - found
+-- Looking for 9 include files sys/types.h, ..., stdlib.h
+-- Looking for 9 include files sys/types.h, ..., stdlib.h - found
+-- Looking for 10 include files sys/types.h, ..., string.h
+-- Looking for 10 include files sys/types.h, ..., string.h - found
+-- Looking for 11 include files sys/types.h, ..., strings.h
+-- Looking for 11 include files sys/types.h, ..., strings.h - found
+-- Looking for 12 include files sys/types.h, ..., sys/time.h
+-- Looking for 12 include files sys/types.h, ..., sys/time.h - found
+-- Looking for 13 include files sys/types.h, ..., time.h
+-- Looking for 13 include files sys/types.h, ..., time.h - found
+-- Looking for 14 include files sys/types.h, ..., unistd.h
+-- Looking for 14 include files sys/types.h, ..., unistd.h - found
+-- Looking for 15 include files sys/types.h, ..., pthread.h
+-- Looking for 15 include files sys/types.h, ..., pthread.h - found
+-- Looking for 16 include files sys/types.h, ..., windows.h
+-- Looking for 16 include files sys/types.h, ..., windows.h - not found
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for getline
+-- Looking for getline - found
+-- Looking for getpid
+-- Looking for getpid - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for malloc
+-- Looking for malloc - found
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Looking for realloc
+-- Looking for realloc - found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strsignal
+-- Looking for strsignal - found
+-- Looking for _getpid
+-- Looking for _getpid - not found
+-- Looking for _strdup
+-- Looking for _strdup - not found
+-- Looking for alarm
+-- Looking for alarm - found
+-- Looking for regcomp
+-- Looking for regcomp - found
+-- Looking for regexec
+-- Looking for regexec - found
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for vsnprintf
+-- Looking for vsnprintf - found
+-- Looking for snprintf
+-- Looking for snprintf - found
+-- Looking for vsnprintf
+-- Looking for vsnprintf - found
+-- Performing Test HAVE_PTHREADS_FLAG
+-- Performing Test HAVE_PTHREADS_FLAG - Success
+-- Looking for INT64_MAX
+-- Looking for INT64_MAX - found
+-- Looking for INT64_MIN
+-- Looking for INT64_MIN - found
+-- Looking for UINT32_MAX
+-- Looking for UINT32_MAX - found
+-- Looking for UINT64_MAX
+-- Looking for UINT64_MAX - found
+-- Looking for SIZE_MAX
+-- Looking for SIZE_MAX - found
+-- Looking for SSIZE_MAX
+-- Looking for SSIZE_MAX - found
+-- Performing Test HAVE_STRUCT_ITIMERSPEC_IT_VALUE
+-- Performing Test HAVE_STRUCT_ITIMERSPEC_IT_VALUE - Failed
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Check size of unsigned
+-- Check size of unsigned - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of unsigned __int64
+-- Check size of unsigned __int64 - failed
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of intmax_t
+-- Check size of intmax_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of uintmax_t
+-- Check size of uintmax_t - done
+-- Check size of clock_t
+-- Check size of clock_t - done
+-- Check size of clockid_t
+-- Check size of clockid_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of pid_t
+-- Check size of pid_t - done
+-- Check size of timer_t
+-- Check size of timer_t - done
+-- Looking for floor in m
+-- Looking for floor in m - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for subunit_test_start in subunit
+-- Looking for subunit_test_start in subunit - not found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qba/git/afb-libafb/tis/build/check
+[  1%] Building C object lib/CMakeFiles/compat.dir/libcompat.c.o
+[  3%] Building C object lib/CMakeFiles/compat.dir/fpclassify.c.o
+[  4%] Linking C static library libcompat.a
+[  4%] Built target compat
+[  6%] Building C object src/CMakeFiles/checkShared.dir/check.c.o
+[  7%] Building C object src/CMakeFiles/checkShared.dir/check_error.c.o
+[  9%] Building C object src/CMakeFiles/checkShared.dir/check_list.c.o
+[ 10%] Building C object src/CMakeFiles/checkShared.dir/check_log.c.o
+[ 12%] Building C object src/CMakeFiles/checkShared.dir/check_msg.c.o
+[ 13%] Building C object src/CMakeFiles/checkShared.dir/check_pack.c.o
+[ 15%] Building C object src/CMakeFiles/checkShared.dir/check_print.c.o
+[ 16%] Building C object src/CMakeFiles/checkShared.dir/check_run.c.o
+[ 18%] Building C object src/CMakeFiles/checkShared.dir/check_str.c.o
+[ 20%] Building C object src/CMakeFiles/checkShared.dir/__/lib/fpclassify.c.o
+[ 21%] Linking C shared library libcheck.so
+[ 21%] Built target checkShared
+[ 23%] Building C object src/CMakeFiles/check.dir/check.c.o
+[ 24%] Building C object src/CMakeFiles/check.dir/check_error.c.o
+[ 26%] Building C object src/CMakeFiles/check.dir/check_list.c.o
+[ 27%] Building C object src/CMakeFiles/check.dir/check_log.c.o
+[ 29%] Building C object src/CMakeFiles/check.dir/check_msg.c.o
+[ 30%] Building C object src/CMakeFiles/check.dir/check_pack.c.o
+[ 32%] Building C object src/CMakeFiles/check.dir/check_print.c.o
+[ 33%] Building C object src/CMakeFiles/check.dir/check_run.c.o
+[ 35%] Building C object src/CMakeFiles/check.dir/check_str.c.o
+[ 36%] Building C object src/CMakeFiles/check.dir/__/lib/fpclassify.c.o
+[ 38%] Linking C static library libcheck.a
+[ 38%] Built target check
+[ 40%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_sub.c.o
+In file included from /home/qba/git/afb-libafb/check/tests/check_check_sub.c:26:0:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_unless_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:65:23: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(1 == 2, "This test should fail");
+                       ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:472:77: note: in definition of macro ‘fail_unless’
+     _ck_assert_failed(__FILE__, __LINE__, "Assertion '"#expr"' failed" , ## __VA_ARGS__, NULL)
+                                                                             ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_pass_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:73:19: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(1 == 2, "This test should pass");
+                   ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:74:14: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(0, "This test should pass");
+              ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_fail_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:83:19: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(1 == 1, "This test should fail");
+                   ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_null_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:92:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(2 == 3, NULL);
+   ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_no_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:103:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(4 == 5, NULL);
+   ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_null_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:112:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(2 != 3, NULL);
+   ^~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_no_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:123:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(4 != 5, NULL);
+   ^~~~~~~
+In file included from /home/qba/git/afb-libafb/check/tests/check_check_sub.c:26:0:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_vararg_msg_1_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:135:23: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(x == y, "%d != %d", x, y);
+                       ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:472:77: note: in definition of macro ‘fail_unless’
+     _ck_assert_failed(__FILE__, __LINE__, "Assertion '"#expr"' failed" , ## __VA_ARGS__, NULL)
+                                                                             ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_vararg_msg_2_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:147:19: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(x != y, "%d != %d", x, y);
+                   ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_vararg_msg_3_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:159:8: warning: too many arguments for format [-Wformat-extra-args]
+   fail("%d == %d", x, y);
+        ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:494:71: note: in definition of macro ‘fail’
+ #define fail(...) _ck_assert_failed(__FILE__, __LINE__, "Failed" , ## __VA_ARGS__, NULL)
+                                                                       ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_empty_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:171:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail(NULL);
+   ^~~~
+[ 41%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_master.c.o
+[ 43%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_log.c.o
+[ 44%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_fork.c.o
+[ 46%] Building C object tests/CMakeFiles/check_check_export.dir/check_check_export_main.c.o
+[ 47%] Linking C executable check_check_export
+[ 47%] Built target check_check_export
+[ 49%] Building C object tests/CMakeFiles/check_check.dir/check_check_exit.c.o
+[ 50%] Building C object tests/CMakeFiles/check_check.dir/check_check_fixture.c.o
+[ 52%] Building C object tests/CMakeFiles/check_check.dir/check_check_fork.c.o
+[ 53%] Building C object tests/CMakeFiles/check_check.dir/check_check_limit.c.o
+[ 55%] Building C object tests/CMakeFiles/check_check.dir/check_check_log.c.o
+[ 56%] Building C object tests/CMakeFiles/check_check.dir/check_check_log_internal.c.o
+[ 58%] Building C object tests/CMakeFiles/check_check.dir/check_check_main.c.o
+[ 60%] Building C object tests/CMakeFiles/check_check.dir/check_check_master.c.o
+[ 61%] Building C object tests/CMakeFiles/check_check.dir/check_check_msg.c.o
+[ 63%] Building C object tests/CMakeFiles/check_check.dir/check_check_pack.c.o
+In file included from /home/qba/git/afb-libafb/check/tests/check_check_pack.c:27:0:
+/home/qba/git/afb-libafb/check/tests/check_check_pack.c: In function ‘test_pack_fmsg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_pack.c:60:10: warning: too many arguments for format [-Wformat-extra-args]
+     fail("%s", errm);
+          ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:494:71: note: in definition of macro ‘fail’
+ #define fail(...) _ck_assert_failed(__FILE__, __LINE__, "Failed" , ## __VA_ARGS__, NULL)
+                                                                       ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_pack.c: In function ‘test_pack_loc_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_pack.c:91:10: warning: too many arguments for format [-Wformat-extra-args]
+     fail("%s", errm);
+          ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:494:71: note: in definition of macro ‘fail’
+ #define fail(...) _ck_assert_failed(__FILE__, __LINE__, "Failed" , ## __VA_ARGS__, NULL)
+                                                                       ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_pack.c:98:10: warning: too many arguments for format [-Wformat-extra-args]
+     fail("%s", errm);
+          ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:494:71: note: in definition of macro ‘fail’
+ #define fail(...) _ck_assert_failed(__FILE__, __LINE__, "Failed" , ## __VA_ARGS__, NULL)
+                                                                       ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_pack.c: In function ‘test_pack_ctx_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_pack.c:126:10: warning: too many arguments for format [-Wformat-extra-args]
+     fail("%s", errm);
+          ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:494:71: note: in definition of macro ‘fail’
+ #define fail(...) _ck_assert_failed(__FILE__, __LINE__, "Failed" , ## __VA_ARGS__, NULL)
+                                                                       ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_pack.c: In function ‘test_pack_len_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_pack.c:150:10: warning: too many arguments for format [-Wformat-extra-args]
+     fail("%s", errm);
+          ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:494:71: note: in definition of macro ‘fail’
+ #define fail(...) _ck_assert_failed(__FILE__, __LINE__, "Failed" , ## __VA_ARGS__, NULL)
+                                                                       ^~~~~~~~~~~
+[ 64%] Building C object tests/CMakeFiles/check_check.dir/check_check_selective.c.o
+[ 66%] Building C object tests/CMakeFiles/check_check.dir/check_check_sub.c.o
+In file included from /home/qba/git/afb-libafb/check/tests/check_check_sub.c:26:0:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_unless_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:65:23: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(1 == 2, "This test should fail");
+                       ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:472:77: note: in definition of macro ‘fail_unless’
+     _ck_assert_failed(__FILE__, __LINE__, "Assertion '"#expr"' failed" , ## __VA_ARGS__, NULL)
+                                                                             ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_pass_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:73:19: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(1 == 2, "This test should pass");
+                   ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:74:14: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(0, "This test should pass");
+              ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_fail_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:83:19: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(1 == 1, "This test should fail");
+                   ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_null_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:92:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(2 == 3, NULL);
+   ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_no_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:103:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(4 == 5, NULL);
+   ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_null_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:112:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(2 != 3, NULL);
+   ^~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_no_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:123:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(4 != 5, NULL);
+   ^~~~~~~
+In file included from /home/qba/git/afb-libafb/check/tests/check_check_sub.c:26:0:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_vararg_msg_1_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:135:23: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(x == y, "%d != %d", x, y);
+                       ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:472:77: note: in definition of macro ‘fail_unless’
+     _ck_assert_failed(__FILE__, __LINE__, "Assertion '"#expr"' failed" , ## __VA_ARGS__, NULL)
+                                                                             ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_vararg_msg_2_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:147:19: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(x != y, "%d != %d", x, y);
+                   ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_vararg_msg_3_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:159:8: warning: too many arguments for format [-Wformat-extra-args]
+   fail("%d == %d", x, y);
+        ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:494:71: note: in definition of macro ‘fail’
+ #define fail(...) _ck_assert_failed(__FILE__, __LINE__, "Failed" , ## __VA_ARGS__, NULL)
+                                                                       ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_empty_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:171:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail(NULL);
+   ^~~~
+[ 67%] Building C object tests/CMakeFiles/check_check.dir/check_check_tags.c.o
+[ 69%] Building C object tests/CMakeFiles/check_check.dir/check_list.c.o
+[ 70%] Linking C executable check_check
+[ 70%] Built target check_check
+[ 72%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_mem_leaks.c.o
+[ 73%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_check_log.c.o
+[ 75%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_check_limit.c.o
+[ 76%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_check_fixture.c.o
+[ 78%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_check_fork.c.o
+[ 80%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_check_exit.c.o
+[ 81%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_check_selective.c.o
+[ 83%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_check_sub.c.o
+In file included from /home/qba/git/afb-libafb/check/tests/check_check_sub.c:26:0:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_unless_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:65:23: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(1 == 2, "This test should fail");
+                       ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:472:77: note: in definition of macro ‘fail_unless’
+     _ck_assert_failed(__FILE__, __LINE__, "Assertion '"#expr"' failed" , ## __VA_ARGS__, NULL)
+                                                                             ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_pass_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:73:19: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(1 == 2, "This test should pass");
+                   ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:74:14: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(0, "This test should pass");
+              ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_fail_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:83:19: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(1 == 1, "This test should fail");
+                   ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_null_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:92:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(2 == 3, NULL);
+   ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_no_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:103:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(4 == 5, NULL);
+   ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_null_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:112:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(2 != 3, NULL);
+   ^~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_if_no_msg_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:123:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(4 != 5, NULL);
+   ^~~~~~~
+In file included from /home/qba/git/afb-libafb/check/tests/check_check_sub.c:26:0:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_vararg_msg_1_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:135:23: warning: too many arguments for format [-Wformat-extra-args]
+   fail_unless(x == y, "%d != %d", x, y);
+                       ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:472:77: note: in definition of macro ‘fail_unless’
+     _ck_assert_failed(__FILE__, __LINE__, "Assertion '"#expr"' failed" , ## __VA_ARGS__, NULL)
+                                                                             ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_vararg_msg_2_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:147:19: warning: too many arguments for format [-Wformat-extra-args]
+   fail_if(x != y, "%d != %d", x, y);
+                   ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:486:78: note: in definition of macro ‘fail_if’
+      _ck_assert_failed(__FILE__, __LINE__, "Failure '"#expr"' occurred" , ## __VA_ARGS__, NULL) \
+                                                                              ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_vararg_msg_3_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:159:8: warning: too many arguments for format [-Wformat-extra-args]
+   fail("%d == %d", x, y);
+        ^
+/home/qba/git/afb-libafb/tis/build/check/tests/../src/check.h:494:71: note: in definition of macro ‘fail’
+ #define fail(...) _ck_assert_failed(__FILE__, __LINE__, "Failed" , ## __VA_ARGS__, NULL)
+                                                                       ^~~~~~~~~~~
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c: In function ‘test_fail_empty_fn’:
+/home/qba/git/afb-libafb/check/tests/check_check_sub.c:171:3: warning: too many arguments for format [-Wformat-extra-args]
+   fail(NULL);
+   ^~~~
+[ 84%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_check_master.c.o
+[ 86%] Building C object tests/CMakeFiles/check_mem_leaks.dir/check_check_tags.c.o
+[ 87%] Linking C executable check_mem_leaks
+[ 87%] Built target check_mem_leaks
+[ 89%] Building C object tests/CMakeFiles/ex_output.dir/ex_output.c.o
+[ 90%] Linking C executable ex_output
+[ 90%] Built target ex_output
+[ 92%] Building C object tests/CMakeFiles/check_nofork_teardown.dir/check_nofork_teardown.c.o
+[ 93%] Linking C executable check_nofork_teardown
+[ 93%] Built target check_nofork_teardown
+[ 95%] Building C object tests/CMakeFiles/check_set_max_msg_size.dir/check_set_max_msg_size.c.o
+[ 96%] Linking C executable check_set_max_msg_size
+[ 96%] Built target check_set_max_msg_size
+[ 98%] Building C object tests/CMakeFiles/check_nofork.dir/check_nofork.c.o
+[100%] Linking C executable check_nofork
+[100%] Built target check_nofork
+Consolidate compiler generated dependencies of target compat
+[  4%] Built target compat
+Consolidate compiler generated dependencies of target checkShared
+[ 21%] Built target checkShared
+Consolidate compiler generated dependencies of target check
+[ 38%] Built target check
+Consolidate compiler generated dependencies of target check_check_export
+[ 47%] Built target check_check_export
+Consolidate compiler generated dependencies of target check_check
+[ 70%] Built target check_check
+Consolidate compiler generated dependencies of target check_mem_leaks
+[ 87%] Built target check_mem_leaks
+Consolidate compiler generated dependencies of target ex_output
+[ 90%] Built target ex_output
+Consolidate compiler generated dependencies of target check_nofork_teardown
+[ 93%] Built target check_nofork_teardown
+Consolidate compiler generated dependencies of target check_set_max_msg_size
+[ 96%] Built target check_set_max_msg_size
+Consolidate compiler generated dependencies of target check_nofork
+[100%] Built target check_nofork
+Install the project...
+-- Install configuration: "Debug"
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/check_stdint.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/pkgconfig/check.pc
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/cmake/check/check-targets.cmake
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/cmake/check/check-targets-debug.cmake
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/cmake/check/check-config.cmake
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/cmake/check/check-config-version.cmake
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/man/man3/suite_create.3
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/man/man7/libcheck.7
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/libcheck.a
+-- Installing: /home/qba/git/afb-libafb/tis/root/include/check.h
+-- Up-to-date: /home/qba/git/afb-libafb/tis/root/include/check_stdint.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/libcheck.so.0.15.2
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/libcheck.so.0
+-- Installing: /home/qba/git/afb-libafb/tis/root/lib/libcheck.so
+-- Up-to-date: /home/qba/git/afb-libafb/tis/root/include/check.h
+-- Up-to-date: /home/qba/git/afb-libafb/tis/root/include/check_stdint.h
+-- Installing: /home/qba/git/afb-libafb/tis/root/bin/checkmk
+-- Up-to-date: /home/qba/git/afb-libafb/tis/root/share/man
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/man/man1
+-- Installing: /home/qba/git/afb-libafb/tis/root/share/man/man1/checkmk.1
+-- The C compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Checking for module 'afb-binding'
+--   Found afb-binding, version 4.0.0
+-- Checking for module 'json-c'
+--   Found json-c, version 0.14.99
+-- Checking for module 'uuid'
+--   No package 'uuid' found
+CMake Warning at CMakeLists.txt:174 (message):
+  Dependency to lib 'uuid' is missing but WITH_LIBUUID is set!
+
+  		Setting WITH_LIBUUID to OFF and continuing without LIBUUID.
+
+
+-- Checking for module 'check'
+--   Found check, version 0.15.2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/qba/git/afb-libafb/tis/build/build
+[  1%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-api-common.c.o
+[  1%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-api-v3.c.o
+/home/qba/git/afb-libafb/src/libafb/core/afb-api-v3.c: In function ‘afb_api_v3_add_verb’:
+/home/qba/git/afb-libafb/src/libafb/core/afb-api-v3.c:1170:62: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  vv = realloc(api->verbs.dynamics, (1 + api->dyn_verb_count) * sizeof *vv);
+                                                              ^
+[  2%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-api-v4.c.o
+/home/qba/git/afb-libafb/src/libafb/core/afb-api-v4.c: In function ‘afb_api_v4_add_verb’:
+/home/qba/git/afb-libafb/src/libafb/core/afb-api-v4.c:958:66: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  vv = realloc(apiv4->verbs.dynamics, (1 + apiv4->dyn_verb_count) * sizeof *vv);
+                                                                  ^
+[  3%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-apiname.c.o
+[  3%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-apiset.c.o
+[  4%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-auth.c.o
+[  5%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-calls.c.o
+[  5%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-common.c.o
+[  6%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-cred.c.o
+[  6%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-data.c.o
+[  7%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-error-text.c.o
+[  8%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-ev-mgr.c.o
+[  8%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-evt.c.o
+[  9%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-global.c.o
+[ 10%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-hook-flags.c.o
+[ 10%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-hook.c.o
+/home/qba/git/afb-libafb/src/libafb/core/afb-hook.c: In function ‘_hook_’:
+/home/qba/git/afb-libafb/src/libafb/core/afb-hook.c:215:2: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
+  (void)writev(2, iov, 5);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+[ 11%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-jobs.c.o
+/home/qba/git/afb-libafb/src/libafb/core/afb-jobs.c: In function ‘job_add’:
+/home/qba/git/afb-libafb/src/libafb/core/afb-jobs.c:155:14: warning: conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+    job->id = job->id + 1 ?: 1;
+              ^~~
+/home/qba/git/afb-libafb/src/libafb/core/afb-jobs.c:166:10: warning: conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+  idgen = job->id + 1;
+          ^~~
+[ 12%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-json-legacy.c.o
+[ 12%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-perm.c.o
+[ 13%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-permission-text.c.o
+[ 14%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-req-common.c.o
+[ 14%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-req-v3.c.o
+[ 15%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-req-v4.c.o
+[ 15%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-sched.c.o
+[ 16%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-session.c.o
+[ 17%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-sig-monitor.c.o
+[ 17%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-token.c.o
+[ 18%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-type-predefined.c.o
+[ 19%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-type.c.o
+/home/qba/git/afb-libafb/src/libafb/core/afb-type.c: In function ‘add_op’:
+/home/qba/git/afb-libafb/src/libafb/core/afb-type.c:379:57: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   desc = realloc(type->operations, (1 + type->op_count) * sizeof *desc);
+                                                         ^
+[ 19%] Building C object src/libafb/CMakeFiles/libafb.dir/core/afb-v4-itf.c.o
+[ 20%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/expand-json.c.o
+[ 21%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/expand-vars.c.o
+[ 21%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/globmatch.c.o
+[ 22%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/globset.c.o
+[ 23%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/json-locator.c.o
+[ 23%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/jsonstr.c.o
+[ 24%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/locale-root.c.o
+[ 25%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/lockany.c.o
+[ 25%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/path-search.c.o
+/home/qba/git/afb-libafb/src/libafb/utils/path-search.c: In function ‘searchrec’:
+/home/qba/git/afb-libafb/src/libafb/utils/path-search.c:419:37: warning: conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+   memcpy(search->path, paths->path, 1 + length);
+                                     ^
+/home/qba/git/afb-libafb/src/libafb/utils/path-search.c:432:38: warning: conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+    memcpy(search->path, paths->path, 1 + length);
+                                      ^
+[ 26%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/pearson.c.o
+[ 26%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/sha1.c.o
+[ 27%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/u16id.c.o
+/home/qba/git/afb-libafb/src/libafb/utils/u16id.c: In function ‘size’:
+/home/qba/git/afb-libafb/src/libafb/utils/u16id.c:129:26: warning: conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+  return sizeof(uint16_t) * (capacity + 1)
+                          ^
+[ 28%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/uuid.c.o
+[ 28%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/websock.c.o
+[ 29%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/wrap-json.c.o
+/home/qba/git/afb-libafb/src/libafb/utils/wrap-json.c: In function ‘vunpack’:
+/home/qba/git/afb-libafb/src/libafb/utils/wrap-json.c:729:7: warning: this statement may fall through [-Wimplicit-fallthrough=]
+    if (!ignore && top->index != top->count)
+       ^
+/home/qba/git/afb-libafb/src/libafb/utils/wrap-json.c:732:3: note: here
+   case '*':
+   ^~~~
+[ 30%] Building C object src/libafb/CMakeFiles/libafb.dir/utils/ws.c.o
+[ 30%] Building C object src/libafb/CMakeFiles/libafb.dir/sys/ev-mgr.c.o
+/home/qba/git/afb-libafb/src/libafb/sys/ev-mgr.c: In function ‘ev_mgr_wakeup’:
+/home/qba/git/afb-libafb/src/libafb/sys/ev-mgr.c:925:2: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+  write(mgr->eventfd, &x, sizeof x);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/qba/git/afb-libafb/src/libafb/sys/ev-mgr.c: In function ‘do_wait’:
+/home/qba/git/afb-libafb/src/libafb/sys/ev-mgr.c:874:5: warning: ignoring return value of ‘read’, declared with attribute warn_unused_result [-Wunused-result]
+     read(mgr->eventfd, &x, sizeof x);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 31%] Building C object src/libafb/CMakeFiles/libafb.dir/sys/process-name.c.o
+[ 32%] Building C object src/libafb/CMakeFiles/libafb.dir/sys/subpath.c.o
+[ 32%] Building C object src/libafb/CMakeFiles/libafb.dir/sys/systemd.c.o
+[ 33%] Building C object src/libafb/CMakeFiles/libafb.dir/sys/verbose.c.o
+/home/qba/git/afb-libafb/src/libafb/sys/verbose.c: In function ‘_vverbose_’:
+/home/qba/git/afb-libafb/src/libafb/sys/verbose.c:272:2: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
+  writev(STDERR_FILENO, iov, n);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 34%] Building C object src/libafb/CMakeFiles/libafb.dir/sys/x-dynlib.c.o
+[ 34%] Building C object src/libafb/CMakeFiles/libafb.dir/sys/x-uio.c.o
+[ 35%] Building C object src/libafb/CMakeFiles/libafb.dir/http/afb-hreq.c.o
+[ 35%] Building C object src/libafb/CMakeFiles/libafb.dir/http/afb-hsrv.c.o
+[ 36%] Building C object src/libafb/CMakeFiles/libafb.dir/http/afb-hswitch.c.o
+[ 37%] Building C object src/libafb/CMakeFiles/libafb.dir/http/afb-method.c.o
+[ 37%] Building C object src/libafb/CMakeFiles/libafb.dir/http/afb-websock.c.o
+[ 38%] Building C object src/libafb/CMakeFiles/libafb.dir/apis/afb-api-dbus.c.o
+[ 39%] Building C object src/libafb/CMakeFiles/libafb.dir/apis/afb-api-so-v3.c.o
+/home/qba/git/afb-libafb/src/libafb/apis/afb-api-so-v3.c: In function ‘afb_api_so_v3_add’:
+/home/qba/git/afb-libafb/src/libafb/apis/afb-api-so-v3.c:122:3: warning: ignoring return value of ‘realpath’, declared with attribute warn_unused_result [-Wunused-result]
+   realpath(path, rpath);
+   ^~~~~~~~~~~~~~~~~~~~~
+/home/qba/git/afb-libafb/src/libafb/apis/afb-api-so-v3.c:138:3: warning: ignoring return value of ‘realpath’, declared with attribute warn_unused_result [-Wunused-result]
+   realpath(path, rpath);
+   ^~~~~~~~~~~~~~~~~~~~~
+[ 39%] Building C object src/libafb/CMakeFiles/libafb.dir/apis/afb-api-so-v4.c.o
+/home/qba/git/afb-libafb/src/libafb/apis/afb-api-so-v4.c: In function ‘afb_api_so_v4_add_config’:
+/home/qba/git/afb-libafb/src/libafb/apis/afb-api-so-v4.c:205:2: warning: ignoring return value of ‘realpath’, declared with attribute warn_unused_result [-Wunused-result]
+  realpath(path, rpath);
+  ^~~~~~~~~~~~~~~~~~~~~
+[ 40%] Building C object src/libafb/CMakeFiles/libafb.dir/apis/afb-api-so.c.o
+[ 41%] Building C object src/libafb/CMakeFiles/libafb.dir/apis/afb-api-ws.c.o
+[ 41%] Building C object src/libafb/CMakeFiles/libafb.dir/misc/afb-autoset.c.o
+[ 42%] Building C object src/libafb/CMakeFiles/libafb.dir/misc/afb-debug.c.o
+/home/qba/git/afb-libafb/src/libafb/misc/afb-debug.c: In function ‘indicate’:
+/home/qba/git/afb-libafb/src/libafb/misc/afb-debug.c:78:3: warning: ignoring return value of ‘write’, declared with attribute warn_unused_result [-Wunused-result]
+   write(fd, key, strlen(key));
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 43%] Building C object src/libafb/CMakeFiles/libafb.dir/misc/afb-monitor.c.o
+[ 43%] Building C object src/libafb/CMakeFiles/libafb.dir/misc/afb-socket.c.o
+[ 44%] Building C object src/libafb/CMakeFiles/libafb.dir/misc/afb-supervision.c.o
+[ 45%] Building C object src/libafb/CMakeFiles/libafb.dir/misc/afb-systemd.c.o
+[ 45%] Building C object src/libafb/CMakeFiles/libafb.dir/misc/afb-trace.c.o
+[ 46%] Building C object src/libafb/CMakeFiles/libafb.dir/misc/afb-watchdog.c.o
+[ 46%] Building C object src/libafb/CMakeFiles/libafb.dir/misc/afb-ws.c.o
+[ 47%] Building C object src/libafb/CMakeFiles/libafb.dir/wsapi/afb-proto-ws.c.o
+[ 48%] Building C object src/libafb/CMakeFiles/libafb.dir/wsapi/afb-stub-ws.c.o
+[ 48%] Building C object src/libafb/CMakeFiles/libafb.dir/wsapi/afb-wsapi.c.o
+[ 49%] Building C object src/libafb/CMakeFiles/libafb.dir/wsj1/afb-ws-json1.c.o
+[ 50%] Building C object src/libafb/CMakeFiles/libafb.dir/wsj1/afb-wsj1.c.o
+[ 50%] Building C object src/libafb/CMakeFiles/libafb.dir/extend/afb-extend.c.o
+[ 51%] Building C object src/libafb/CMakeFiles/libafb.dir/tls/tls.c.o
+[ 51%] Built target libafb
+[ 51%] Linking C static library libafb.a
+[ 51%] Built target libafbsta
+[ 52%] Linking C shared library libafb.so
+[ 52%] Built target libafbso
+[ 52%] Building C object src/tests/CMakeFiles/test-afb-calls.dir/test-afb-calls.c.o
+[ 53%] Linking C executable test-afb-calls
+[ 53%] Built target test-afb-calls
+[ 54%] Building C object src/tests/CMakeFiles/test-api-so-v4.dir/test-api-so-v4.c.o
+[ 55%] Linking C executable test-api-so-v4
+[ 55%] Built target test-api-so-v4
+[ 56%] Building C object src/tests/CMakeFiles/test-afb-evt.dir/test-afb-evt.c.o
+[ 56%] Linking C executable test-afb-evt
+[ 56%] Built target test-afb-evt
+[ 57%] Building C object src/tests/CMakeFiles/test-expand-json.dir/test-expand-json.c.o
+[ 58%] Linking C executable test-expand-json
+[ 58%] Built target test-expand-json
+[ 58%] Building C object src/tests/CMakeFiles/test-expand-vars.dir/test-expand-vars.c.o
+[ 59%] Linking C executable test-expand-vars
+[ 59%] Built target test-expand-vars
+[ 59%] Building C object src/tests/CMakeFiles/test-path-search.dir/test-path-search.c.o
+[ 60%] Linking C executable test-path-search
+[ 60%] Built target test-path-search
+[ 61%] Building C object src/tests/CMakeFiles/test-afb-auth.dir/test-afb-auth.c.o
+[ 62%] Linking C executable test-afb-auth
+[ 62%] Built target test-afb-auth
+[ 62%] Building C object src/tests/CMakeFiles/test-afb-data.dir/test-afb-data.c.o
+[ 63%] Linking C executable test-afb-data
+[ 63%] Built target test-afb-data
+[ 64%] Building C object src/tests/CMakeFiles/test-json-locator.dir/test-json-locator.c.o
+[ 65%] Linking C executable test-json-locator
+[ 65%] Built target test-json-locator
+[ 65%] Building C object src/tests/CMakeFiles/test-session.dir/test-session.c.o
+[ 66%] Linking C executable test-session
+[ 66%] Built target test-session
+[ 67%] Building C object src/tests/CMakeFiles/test-apiset.dir/test-apiset.c.o
+[ 67%] Linking C executable test-apiset
+[ 67%] Built target test-apiset
+[ 67%] Building C object src/tests/CMakeFiles/test-u16id.dir/test-u16id.c.o
+[ 68%] Linking C executable test-u16id
+[ 68%] Built target test-u16id
+[ 69%] Building C object src/tests/CMakeFiles/test-wsapi.dir/test-wsapi.c.o
+[ 70%] Linking C executable test-wsapi
+[ 70%] Built target test-wsapi
+[ 71%] Building C object src/tests/CMakeFiles/test-ev-mgr.dir/test-ev-mgr.c.o
+[ 71%] Linking C executable test-ev-mgr
+[ 71%] Built target test-ev-mgr
+[ 72%] Building C object src/tests/CMakeFiles/test-wrap-json.dir/test-wrap-json.c.o
+[ 72%] Linking C executable test-wrap-json
+[ 72%] Built target test-wrap-json
+[ 73%] Building C object src/tests/CMakeFiles/test-req-v3.dir/test-req-v3.c.o
+[ 73%] Linking C executable test-req-v3
+[ 73%] Built target test-req-v3
+[ 74%] Building C object src/tests/CMakeFiles/test-api-common.dir/test-api-common.c.o
+[ 74%] Linking C executable test-api-common
+[ 74%] Built target test-api-common
+[ 75%] Building C object src/tests/CMakeFiles/test-afb-jobs.dir/test-afb-jobs.c.o
+[ 76%] Linking C executable test-afb-jobs
+[ 76%] Built target test-afb-jobs
+[ 77%] Building C object src/tests/CMakeFiles/test-globset.dir/test-globset.c.o
+[ 77%] Linking C executable test-globset
+[ 77%] Built target test-globset
+[ 77%] Building C object src/tests/CMakeFiles/test-api-v3.dir/test-api-v3.c.o
+[ 78%] Linking C executable test-api-v3
+[ 78%] Built target test-api-v3
+[ 79%] Building C object src/tests/CMakeFiles/test-req-common.dir/test-req-common.c.o
+[ 79%] Linking C executable test-req-common
+[ 79%] Built target test-req-common
+[ 80%] Building C object src/tests/CMakeFiles/test-sig-monitor.dir/test-sig-monitor.c.o
+[ 80%] Linking C executable test-sig-monitor
+[ 80%] Built target test-sig-monitor
+[ 80%] Building C object src/tests/CMakeFiles/test-afb-type.dir/test-afb-type.c.o
+[ 81%] Linking C executable test-afb-type
+[ 81%] Built target test-afb-type
+[ 82%] Building C object src/tests/CMakeFiles/test-sched.dir/test-sched.c.o
+[ 83%] Linking C executable test-sched
+[ 83%] Built target test-sched
+[ 84%] Building C object src/tests/CMakeFiles/test-token.dir/test-token.c.o
+[ 85%] Linking C executable test-token
+[ 85%] Built target test-token
+[ 86%] Building C object src/tests/test-bindings/CMakeFiles/bug14.dir/bug.c.o
+[ 87%] Linking C shared library libbug14.so
+[ 87%] Built target bug14
+[ 88%] Building C object src/tests/test-bindings/CMakeFiles/bug17.dir/bug.c.o
+[ 89%] Linking C shared library libbug17.so
+[ 89%] Built target bug17
+[ 89%] Building C object src/tests/test-bindings/CMakeFiles/bug12.dir/bug.c.o
+[ 90%] Linking C shared library libbug12.so
+[ 90%] Built target bug12
+[ 90%] Building C object src/tests/test-bindings/CMakeFiles/bug18.dir/bug.c.o
+[ 91%] Linking C shared library libbug18.so
+[ 91%] Built target bug18
+[ 92%] Building C object src/tests/test-bindings/CMakeFiles/bug13.dir/bug.c.o
+[ 92%] Linking C shared library libbug13.so
+[ 92%] Built target bug13
+[ 92%] Building C object src/tests/test-bindings/CMakeFiles/hello.dir/hello.c.o
+[ 93%] Linking C shared library libhello.so
+[ 93%] Built target hello
+[ 93%] Building C object src/tests/test-bindings/CMakeFiles/bug11.dir/bug.c.o
+[ 94%] Linking C shared library libbug11.so
+[ 94%] Built target bug11
+[ 94%] Building C object src/tests/test-bindings/CMakeFiles/bug19.dir/bug.c.o
+[ 95%] Linking C shared library libbug19.so
+[ 95%] Built target bug19
+[ 96%] Building C object src/tests/test-bindings/CMakeFiles/bug16.dir/bug.c.o
+[ 96%] Linking C shared library libbug16.so
+[ 96%] Built target bug16
+[ 97%] Building C object src/tests/test-bindings/CMakeFiles/bug20.dir/bug.c.o
+[ 97%] Linking C shared library libbug20.so
+[ 97%] Built target bug20
+[ 97%] Building C object src/tests/test-bindings/CMakeFiles/bug15.dir/bug.c.o
+[ 98%] Linking C shared library libbug15.so
+[ 98%] Built target bug15
+[ 99%] Building C object src/tests/test-bindings/CMakeFiles/bug21.dir/bug.c.o
+[100%] Linking C shared library libbug21.so
+[100%] Built target bug21

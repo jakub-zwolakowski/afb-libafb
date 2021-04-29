@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test-afb-auth.dir/test-afb-auth.c.o -o test-afb-auth  -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined ../libafb/libafb.a -lpthread -L/home/qba/git/afb-libafb/tis/root/lib -ljson-c -ldl -lrt -L/home/qba/git/afb-libafb/tis/root/lib -lcheck -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined 

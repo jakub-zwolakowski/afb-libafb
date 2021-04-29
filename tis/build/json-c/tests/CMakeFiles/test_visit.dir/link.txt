@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/test_visit.dir/test_visit.c.o -o test_visit  -Wl,-rpath,/home/qba/git/afb-libafb/tis/build/json-c ../libjson-c.so.5.0.0 

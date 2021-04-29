@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/test4.dir/test4.c.o -o test4  -Wl,-rpath,/home/qba/git/afb-libafb/tis/build/json-c ../libjson-c.so.5.0.0 

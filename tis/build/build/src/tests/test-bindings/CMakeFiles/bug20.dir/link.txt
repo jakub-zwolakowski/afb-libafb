@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libbug20.so -o libbug20.so CMakeFiles/bug20.dir/bug.c.o  -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined ../../libafb/libafb.a -lpthread -L/home/qba/git/afb-libafb/tis/root/lib -ljson-c -ldl -lrt -L/home/qba/git/afb-libafb/tis/root/lib -lcheck -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined 

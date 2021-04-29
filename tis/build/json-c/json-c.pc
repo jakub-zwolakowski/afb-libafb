@@ -1,0 +1,12 @@
+prefix=/home/qba/git/afb-libafb/tis/root
+exec_prefix=/home/qba/git/afb-libafb/tis/root
+libdir=/home/qba/git/afb-libafb/tis/root/lib
+includedir=/home/qba/git/afb-libafb/tis/root/include
+
+Name: json-c
+Description: A JSON implementation in C
+Version: 0.14.99
+Requires:
+Libs.private: 
+Libs: -L${libdir} -ljson-c
+Cflags: -I${includedir} -I${includedir}/json-c

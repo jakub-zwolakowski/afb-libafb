@@ -1,0 +1,65 @@
+type: books
+books:
+-
+    id: afb_binding
+    title: Application Framework Bindings
+    description: Application Framework Bindings documentation
+    keywords:
+    author: "IotBzh"
+    version: master
+    chapters:
+    - url: "afb-binding-overview.md"
+      name: Overview
+    - url: "afb-binding-vocabulary.md"
+      name: Binding's vocabulary
+    - url: "afb-events-guide.md"
+      name: Binder events guide
+    - url: "afb-binding-tutorial-v3.md"
+      name: How to write a binding version 3?
+    - url: "afb-binding-tutorial-v4.md"
+      name: How to write a binding version 4?
+    - name: Bindings Version 3 References
+      children:
+          - url: "reference-v3/types-and-globals.md"
+            name: Types and globals
+          - url: "reference-v3/macro-log.md"
+            name: Logging macros
+          - url: "reference-v3/func-api.md"
+            name: afb_api functions
+          - url: "reference-v3/func-req.md"
+            name: afb_req functions
+          - url: "reference-v3/func-event.md"
+            name: afb_event functions
+          - url: "reference-v3/func-daemon.md"
+            name: afb_daemon functions
+          - url: "reference-v3/func-service.md"
+            name: afb_service functions
+    - name: Bindings Version 4 References
+      children:
+          - url: "reference-v4/types-and-globals.md"
+            name: Types and globals
+          - url: "reference-v4/macro-log.md"
+            name: Logging macros
+          - url: "reference-v4/func-afb-api.md"
+            name: afb_api functions
+          - url: "reference-v4/func-afb-req.md"
+            name: afb_req functions
+          - url: "reference-v4/func-afb-event.md"
+            name: afb_event functions
+          - url: "reference-v4/func-afb-misc.md"
+            name: Miscellanous functions
+          - url: "reference-v4/func-afb-type.md"
+            name: afb_type functions
+          - url: "reference-v4/predefined-afb-type.md"
+            name: Types predefined
+          - url: "reference-v4/func-afb-data.md"
+            name: afb_data functions
+          - url: "reference-v4/func-afb-data-array.md"
+            name: afb_data_array functions
+          - url: "reference-v4/func-afb-evfd.md"
+            name: afb_evfd functions
+          - url: "reference-v4/func-afb-timer.md"
+            name: afb_timer functions
+    - url: "afb-desktop-package.md"
+      name: Developping bindings on a desktop
+

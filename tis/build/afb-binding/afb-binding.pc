@@ -1,0 +1,14 @@
+# Copyright (C) 2015-2021 IoT.bzh Company
+# Author: José Bollo <jose.bollo@iot.bzh>
+#
+# SPDX-License-Identifier: LGPL-3.0-only
+
+Name: afb-binding
+Description: Binding headers for Application Framework Binder
+URL: https://github.com/redpesk-core/afb-binding
+Version: 4.0.0
+
+incdir=/home/qba/git/afb-libafb/tis/root/include/afb
+version_script=/home/qba/git/afb-libafb/tis/root/include/afb/afb-export.map
+
+Cflags: -I${incdir} -I/home/qba/git/afb-libafb/tis/root/include

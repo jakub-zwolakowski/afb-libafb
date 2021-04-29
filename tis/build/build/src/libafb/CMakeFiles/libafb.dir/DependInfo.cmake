@@ -1,0 +1,97 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/qba/git/afb-libafb/src/libafb/apis/afb-api-dbus.c" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-dbus.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-dbus.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/apis/afb-api-so-v3.c" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-so-v3.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-so-v3.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/apis/afb-api-so-v4.c" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-so-v4.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-so-v4.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/apis/afb-api-so.c" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-so.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-so.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/apis/afb-api-ws.c" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-ws.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/apis/afb-api-ws.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-api-common.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-api-common.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-api-common.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-api-v3.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-api-v3.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-api-v3.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-api-v4.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-api-v4.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-api-v4.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-apiname.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-apiname.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-apiname.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-apiset.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-apiset.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-apiset.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-auth.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-auth.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-auth.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-calls.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-calls.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-calls.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-common.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-common.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-common.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-cred.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-cred.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-cred.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-data.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-data.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-data.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-error-text.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-error-text.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-error-text.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-ev-mgr.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-ev-mgr.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-ev-mgr.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-evt.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-evt.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-evt.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-global.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-global.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-global.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-hook-flags.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-hook-flags.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-hook-flags.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-hook.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-hook.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-hook.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-jobs.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-jobs.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-jobs.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-json-legacy.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-json-legacy.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-json-legacy.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-perm.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-perm.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-perm.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-permission-text.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-permission-text.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-permission-text.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-req-common.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-req-common.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-req-common.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-req-v3.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-req-v3.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-req-v3.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-req-v4.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-req-v4.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-req-v4.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-sched.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-sched.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-sched.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-session.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-session.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-session.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-sig-monitor.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-sig-monitor.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-sig-monitor.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-token.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-token.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-token.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-type-predefined.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-type-predefined.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-type-predefined.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-type.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-type.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-type.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/core/afb-v4-itf.c" "src/libafb/CMakeFiles/libafb.dir/core/afb-v4-itf.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/core/afb-v4-itf.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/extend/afb-extend.c" "src/libafb/CMakeFiles/libafb.dir/extend/afb-extend.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/extend/afb-extend.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/http/afb-hreq.c" "src/libafb/CMakeFiles/libafb.dir/http/afb-hreq.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/http/afb-hreq.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/http/afb-hsrv.c" "src/libafb/CMakeFiles/libafb.dir/http/afb-hsrv.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/http/afb-hsrv.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/http/afb-hswitch.c" "src/libafb/CMakeFiles/libafb.dir/http/afb-hswitch.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/http/afb-hswitch.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/http/afb-method.c" "src/libafb/CMakeFiles/libafb.dir/http/afb-method.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/http/afb-method.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/http/afb-websock.c" "src/libafb/CMakeFiles/libafb.dir/http/afb-websock.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/http/afb-websock.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/misc/afb-autoset.c" "src/libafb/CMakeFiles/libafb.dir/misc/afb-autoset.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/misc/afb-autoset.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/misc/afb-debug.c" "src/libafb/CMakeFiles/libafb.dir/misc/afb-debug.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/misc/afb-debug.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/misc/afb-monitor.c" "src/libafb/CMakeFiles/libafb.dir/misc/afb-monitor.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/misc/afb-monitor.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/misc/afb-socket.c" "src/libafb/CMakeFiles/libafb.dir/misc/afb-socket.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/misc/afb-socket.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/misc/afb-supervision.c" "src/libafb/CMakeFiles/libafb.dir/misc/afb-supervision.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/misc/afb-supervision.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/misc/afb-systemd.c" "src/libafb/CMakeFiles/libafb.dir/misc/afb-systemd.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/misc/afb-systemd.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/misc/afb-trace.c" "src/libafb/CMakeFiles/libafb.dir/misc/afb-trace.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/misc/afb-trace.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/misc/afb-watchdog.c" "src/libafb/CMakeFiles/libafb.dir/misc/afb-watchdog.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/misc/afb-watchdog.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/misc/afb-ws.c" "src/libafb/CMakeFiles/libafb.dir/misc/afb-ws.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/misc/afb-ws.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/sys/ev-mgr.c" "src/libafb/CMakeFiles/libafb.dir/sys/ev-mgr.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/sys/ev-mgr.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/sys/process-name.c" "src/libafb/CMakeFiles/libafb.dir/sys/process-name.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/sys/process-name.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/sys/subpath.c" "src/libafb/CMakeFiles/libafb.dir/sys/subpath.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/sys/subpath.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/sys/systemd.c" "src/libafb/CMakeFiles/libafb.dir/sys/systemd.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/sys/systemd.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/sys/verbose.c" "src/libafb/CMakeFiles/libafb.dir/sys/verbose.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/sys/verbose.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/sys/x-dynlib.c" "src/libafb/CMakeFiles/libafb.dir/sys/x-dynlib.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/sys/x-dynlib.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/sys/x-uio.c" "src/libafb/CMakeFiles/libafb.dir/sys/x-uio.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/sys/x-uio.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/tls/tls.c" "src/libafb/CMakeFiles/libafb.dir/tls/tls.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/tls/tls.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/expand-json.c" "src/libafb/CMakeFiles/libafb.dir/utils/expand-json.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/expand-json.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/expand-vars.c" "src/libafb/CMakeFiles/libafb.dir/utils/expand-vars.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/expand-vars.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/globmatch.c" "src/libafb/CMakeFiles/libafb.dir/utils/globmatch.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/globmatch.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/globset.c" "src/libafb/CMakeFiles/libafb.dir/utils/globset.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/globset.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/json-locator.c" "src/libafb/CMakeFiles/libafb.dir/utils/json-locator.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/json-locator.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/jsonstr.c" "src/libafb/CMakeFiles/libafb.dir/utils/jsonstr.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/jsonstr.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/locale-root.c" "src/libafb/CMakeFiles/libafb.dir/utils/locale-root.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/locale-root.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/lockany.c" "src/libafb/CMakeFiles/libafb.dir/utils/lockany.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/lockany.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/path-search.c" "src/libafb/CMakeFiles/libafb.dir/utils/path-search.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/path-search.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/pearson.c" "src/libafb/CMakeFiles/libafb.dir/utils/pearson.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/pearson.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/sha1.c" "src/libafb/CMakeFiles/libafb.dir/utils/sha1.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/sha1.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/u16id.c" "src/libafb/CMakeFiles/libafb.dir/utils/u16id.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/u16id.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/uuid.c" "src/libafb/CMakeFiles/libafb.dir/utils/uuid.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/uuid.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/websock.c" "src/libafb/CMakeFiles/libafb.dir/utils/websock.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/websock.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/wrap-json.c" "src/libafb/CMakeFiles/libafb.dir/utils/wrap-json.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/wrap-json.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/utils/ws.c" "src/libafb/CMakeFiles/libafb.dir/utils/ws.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/utils/ws.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/wsapi/afb-proto-ws.c" "src/libafb/CMakeFiles/libafb.dir/wsapi/afb-proto-ws.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/wsapi/afb-proto-ws.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/wsapi/afb-stub-ws.c" "src/libafb/CMakeFiles/libafb.dir/wsapi/afb-stub-ws.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/wsapi/afb-stub-ws.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/wsapi/afb-wsapi.c" "src/libafb/CMakeFiles/libafb.dir/wsapi/afb-wsapi.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/wsapi/afb-wsapi.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/wsj1/afb-ws-json1.c" "src/libafb/CMakeFiles/libafb.dir/wsj1/afb-ws-json1.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/wsj1/afb-ws-json1.c.o.d"
+  "/home/qba/git/afb-libafb/src/libafb/wsj1/afb-wsj1.c" "src/libafb/CMakeFiles/libafb.dir/wsj1/afb-wsj1.c.o" "gcc" "src/libafb/CMakeFiles/libafb.dir/wsj1/afb-wsj1.c.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

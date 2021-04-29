@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/test_json_pointer.dir/test_json_pointer.c.o -o test_json_pointer  -Wl,-rpath,/home/qba/git/afb-libafb/tis/build/json-c ../libjson-c.so.5.0.0 

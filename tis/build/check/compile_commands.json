@@ -1,0 +1,277 @@
+[
+{
+  "directory": "../../../tis/build/check/lib",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -g   -pthread -std=gnu99 -o CMakeFiles/compat.dir/libcompat.c.o -c ../../../check/lib/libcompat.c",
+  "file": "../../../check/lib/libcompat.c"
+},
+{
+  "directory": "../../../tis/build/check/lib",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -g   -pthread -std=gnu99 -o CMakeFiles/compat.dir/fpclassify.c.o -c ../../../check/lib/fpclassify.c",
+  "file": "../../../check/lib/fpclassify.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/check.c.o -c ../../../check/src/check.c",
+  "file": "../../../check/src/check.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/check_error.c.o -c ../../../check/src/check_error.c",
+  "file": "../../../check/src/check_error.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/check_list.c.o -c ../../../check/src/check_list.c",
+  "file": "../../../check/src/check_list.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/check_log.c.o -c ../../../check/src/check_log.c",
+  "file": "../../../check/src/check_log.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/check_msg.c.o -c ../../../check/src/check_msg.c",
+  "file": "../../../check/src/check_msg.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/check_pack.c.o -c ../../../check/src/check_pack.c",
+  "file": "../../../check/src/check_pack.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/check_print.c.o -c ../../../check/src/check_print.c",
+  "file": "../../../check/src/check_print.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/check_run.c.o -c ../../../check/src/check_run.c",
+  "file": "../../../check/src/check_run.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/check_str.c.o -c ../../../check/src/check_str.c",
+  "file": "../../../check/src/check_str.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -DcheckShared_EXPORTS -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g -fPIC   -pthread -std=gnu99 -o CMakeFiles/checkShared.dir/__/lib/fpclassify.c.o -c ../../../check/lib/fpclassify.c",
+  "file": "../../../check/lib/fpclassify.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/check.c.o -c ../../../check/src/check.c",
+  "file": "../../../check/src/check.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/check_error.c.o -c ../../../check/src/check_error.c",
+  "file": "../../../check/src/check_error.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/check_list.c.o -c ../../../check/src/check_list.c",
+  "file": "../../../check/src/check_list.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/check_log.c.o -c ../../../check/src/check_log.c",
+  "file": "../../../check/src/check_log.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/check_msg.c.o -c ../../../check/src/check_msg.c",
+  "file": "../../../check/src/check_msg.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/check_pack.c.o -c ../../../check/src/check_pack.c",
+  "file": "../../../check/src/check_pack.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/check_print.c.o -c ../../../check/src/check_print.c",
+  "file": "../../../check/src/check_print.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/check_run.c.o -c ../../../check/src/check_run.c",
+  "file": "../../../check/src/check_run.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/check_str.c.o -c ../../../check/src/check_str.c",
+  "file": "../../../check/src/check_str.c"
+},
+{
+  "directory": "../../../tis/build/check/src",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check.dir/__/lib/fpclassify.c.o -c ../../../check/lib/fpclassify.c",
+  "file": "../../../check/lib/fpclassify.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check_export.dir/check_check_sub.c.o -c ../../../check/tests/check_check_sub.c",
+  "file": "../../../check/tests/check_check_sub.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check_export.dir/check_check_master.c.o -c ../../../check/tests/check_check_master.c",
+  "file": "../../../check/tests/check_check_master.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check_export.dir/check_check_log.c.o -c ../../../check/tests/check_check_log.c",
+  "file": "../../../check/tests/check_check_log.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check_export.dir/check_check_fork.c.o -c ../../../check/tests/check_check_fork.c",
+  "file": "../../../check/tests/check_check_fork.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check_export.dir/check_check_export_main.c.o -c ../../../check/tests/check_check_export_main.c",
+  "file": "../../../check/tests/check_check_export_main.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_exit.c.o -c ../../../check/tests/check_check_exit.c",
+  "file": "../../../check/tests/check_check_exit.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_fixture.c.o -c ../../../check/tests/check_check_fixture.c",
+  "file": "../../../check/tests/check_check_fixture.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_fork.c.o -c ../../../check/tests/check_check_fork.c",
+  "file": "../../../check/tests/check_check_fork.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_limit.c.o -c ../../../check/tests/check_check_limit.c",
+  "file": "../../../check/tests/check_check_limit.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_log.c.o -c ../../../check/tests/check_check_log.c",
+  "file": "../../../check/tests/check_check_log.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_log_internal.c.o -c ../../../check/tests/check_check_log_internal.c",
+  "file": "../../../check/tests/check_check_log_internal.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_main.c.o -c ../../../check/tests/check_check_main.c",
+  "file": "../../../check/tests/check_check_main.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_master.c.o -c ../../../check/tests/check_check_master.c",
+  "file": "../../../check/tests/check_check_master.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_msg.c.o -c ../../../check/tests/check_check_msg.c",
+  "file": "../../../check/tests/check_check_msg.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_pack.c.o -c ../../../check/tests/check_check_pack.c",
+  "file": "../../../check/tests/check_check_pack.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_selective.c.o -c ../../../check/tests/check_check_selective.c",
+  "file": "../../../check/tests/check_check_selective.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_sub.c.o -c ../../../check/tests/check_check_sub.c",
+  "file": "../../../check/tests/check_check_sub.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_check_tags.c.o -c ../../../check/tests/check_check_tags.c",
+  "file": "../../../check/tests/check_check_tags.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_check.dir/check_list.c.o -c ../../../check/tests/check_list.c",
+  "file": "../../../check/tests/check_list.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_mem_leaks.c.o -c ../../../check/tests/check_mem_leaks.c",
+  "file": "../../../check/tests/check_mem_leaks.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_check_log.c.o -c ../../../check/tests/check_check_log.c",
+  "file": "../../../check/tests/check_check_log.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_check_limit.c.o -c ../../../check/tests/check_check_limit.c",
+  "file": "../../../check/tests/check_check_limit.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_check_fixture.c.o -c ../../../check/tests/check_check_fixture.c",
+  "file": "../../../check/tests/check_check_fixture.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_check_fork.c.o -c ../../../check/tests/check_check_fork.c",
+  "file": "../../../check/tests/check_check_fork.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_check_exit.c.o -c ../../../check/tests/check_check_exit.c",
+  "file": "../../../check/tests/check_check_exit.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_check_selective.c.o -c ../../../check/tests/check_check_selective.c",
+  "file": "../../../check/tests/check_check_selective.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_check_sub.c.o -c ../../../check/tests/check_check_sub.c",
+  "file": "../../../check/tests/check_check_sub.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_check_master.c.o -c ../../../check/tests/check_check_master.c",
+  "file": "../../../check/tests/check_check_master.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_mem_leaks.dir/check_check_tags.c.o -c ../../../check/tests/check_check_tags.c",
+  "file": "../../../check/tests/check_check_tags.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/ex_output.dir/ex_output.c.o -c ../../../check/tests/ex_output.c",
+  "file": "../../../check/tests/ex_output.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_nofork_teardown.dir/check_nofork_teardown.c.o -c ../../../check/tests/check_nofork_teardown.c",
+  "file": "../../../check/tests/check_nofork_teardown.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_set_max_msg_size.dir/check_set_max_msg_size.c.o -c ../../../check/tests/check_set_max_msg_size.c",
+  "file": "../../../check/tests/check_set_max_msg_size.c"
+},
+{
+  "directory": "../../../tis/build/check/tests",
+  "command": "/usr/bin/cc -DENABLE_REGEX=1 -DENABLE_SUBUNIT=0 -DHAVE_CONFIG_H -DHAVE_DECL_ALARM=1 -DHAVE_FORK=1 -DHAVE_LIBRT=1 -DHAVE_MKSTEMP=1 -DHAVE_REGEX=1 -DHAVE_SNPRINTF=1 -DHAVE_VSNPRINTF=1 -DMEMORY_LEAKING_TESTS_ENABLED=1 -DSTRUCT_ITIMERSPEC_DEFINITION_MISSING=1 -DTIMEOUT_TESTS_ENABLED=1 -I../../../tis/build/check -I../../../check/tests/../src -I../../../tis/build/check/tests/../src -I../../../tis/build/check/src -I../../../tis/build/check/src/.. -g   -pthread -std=gnu99 -o CMakeFiles/check_nofork.dir/check_nofork.c.o -c ../../../check/tests/check_nofork.c",
+  "file": "../../../check/tests/check_nofork.c"
+}
+]

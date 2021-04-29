@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/test-api-common.dir/test-api-common.c.o -o test-api-common  -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined ../libafb/libafb.a -lpthread -L/home/qba/git/afb-libafb/tis/root/lib -ljson-c -ldl -lrt -L/home/qba/git/afb-libafb/tis/root/lib -lcheck -Wl,--as-needed -Wl,--gc-sections -Wl,--no-undefined 

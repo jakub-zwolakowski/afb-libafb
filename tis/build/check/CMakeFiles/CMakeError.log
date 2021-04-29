@@ -1,0 +1,302 @@
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/time.h;time.h;unistd.h;pthread.h;windows.h exist failed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_41f80/fast && /usr/bin/make  -f CMakeFiles/cmTC_41f80.dir/build.make CMakeFiles/cmTC_41f80.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41f80.dir/HAVE_WINDOWS_H.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_41f80.dir/HAVE_WINDOWS_H.c.o -c /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:17:10: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+          ^~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_41f80.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_41f80.dir/HAVE_WINDOWS_H.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_41f80.dir/HAVE_WINDOWS_H.c.o] Error 1
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_41f80/fast' failed
+make: *** [cmTC_41f80/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/types.h>
+#include <errno.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <regex.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/time.h>
+#include <time.h>
+#include <unistd.h>
+#include <pthread.h>
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if the function _getpid exists failed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e4347/fast && /usr/bin/make  -f CMakeFiles/cmTC_e4347.dir/build.make CMakeFiles/cmTC_e4347.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4347.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_getpid -std=gnu99 -o CMakeFiles/cmTC_e4347.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e4347
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4347.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_getpid CMakeFiles/cmTC_e4347.dir/CheckFunctionExists.c.o -o cmTC_e4347 
+CMakeFiles/cmTC_e4347.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_getpid'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e4347.dir/build.make:98: recipe for target 'cmTC_e4347' failed
+make[1]: *** [cmTC_e4347] Error 1
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_e4347/fast' failed
+make: *** [cmTC_e4347/fast] Error 2
+
+
+
+Determining if the function _strdup exists failed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3b42e/fast && /usr/bin/make  -f CMakeFiles/cmTC_3b42e.dir/build.make CMakeFiles/cmTC_3b42e.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b42e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_strdup -std=gnu99 -o CMakeFiles/cmTC_3b42e.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3b42e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b42e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=_strdup CMakeFiles/cmTC_3b42e.dir/CheckFunctionExists.c.o -o cmTC_3b42e 
+CMakeFiles/cmTC_3b42e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `_strdup'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3b42e.dir/build.make:98: recipe for target 'cmTC_3b42e' failed
+make[1]: *** [cmTC_3b42e] Error 1
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_3b42e/fast' failed
+make: *** [cmTC_3b42e/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_ITIMERSPEC_IT_VALUE failed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5db4f/fast && /usr/bin/make  -f CMakeFiles/cmTC_5db4f.dir/build.make CMakeFiles/cmTC_5db4f.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5db4f.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_ITIMERSPEC_IT_VALUE  -std=gnu99 -o CMakeFiles/cmTC_5db4f.dir/src.c.o -c /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp/src.c
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp/src.c:6:29: error: storage size of ‘tmp’ isn’t known
+    static struct itimerspec tmp;
+                             ^~~
+CMakeFiles/cmTC_5db4f.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_5db4f.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5db4f.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_5db4f/fast' failed
+make: *** [cmTC_5db4f/fast] Error 2
+
+
+Source file was:
+
+#include <sys/time.h>
+
+int main()
+{
+   static struct itimerspec tmp;
+   if (sizeof(tmp.it_value))
+      return 0;
+  return 0;
+}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7731/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7731.dir/build.make CMakeFiles/cmTC_d7731.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7731.dir/__INT64.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_d7731.dir/__INT64.c.o -c /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/__INT64.c
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/__INT64.c:27:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/__INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_d7731.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_d7731.dir/__INT64.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_d7731.dir/__INT64.c.o] Error 1
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_d7731/fast' failed
+make: *** [cmTC_d7731/fast] Error 2
+
+
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/__INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bd6fc/fast && /usr/bin/make  -f CMakeFiles/cmTC_bd6fc.dir/build.make CMakeFiles/cmTC_bd6fc.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd6fc.dir/UNSIGNED___INT64.c.o
+/usr/bin/cc   -std=gnu99 -o CMakeFiles/cmTC_bd6fc.dir/UNSIGNED___INT64.c.o -c /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:30:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^~~~
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:31:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^~~~
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:32:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^~~~
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:27:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:33:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^~~~
+CMakeFiles/cmTC_bd6fc.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_bd6fc.dir/UNSIGNED___INT64.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_bd6fc.dir/UNSIGNED___INT64.c.o] Error 1
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_bd6fc/fast' failed
+make: *** [cmTC_bd6fc/fast] Error 2
+
+
+/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CheckTypeSize/UNSIGNED___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function subunit_test_start exists in the subunit failed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee76a/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee76a.dir/build.make CMakeFiles/cmTC_ee76a.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee76a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=subunit_test_start -std=gnu99 -o CMakeFiles/cmTC_ee76a.dir/CheckFunctionExists.c.o -c /usr/local/share/cmake-3.20/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee76a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee76a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=subunit_test_start CMakeFiles/cmTC_ee76a.dir/CheckFunctionExists.c.o -o cmTC_ee76a  -lsubunit 
+/usr/bin/ld: cannot find -lsubunit
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ee76a.dir/build.make:98: recipe for target 'cmTC_ee76a' failed
+make[1]: *** [cmTC_ee76a] Error 1
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/check/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_ee76a/fast' failed
+make: *** [cmTC_ee76a/fast] Error 2
+
+
+

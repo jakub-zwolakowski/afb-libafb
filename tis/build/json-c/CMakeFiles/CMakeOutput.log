@@ -1,0 +1,1230 @@
+The system is: Linux - 5.4.0-72-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/3.20.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eaf12/fast && /usr/bin/make  -f CMakeFiles/cmTC_eaf12.dir/build.make CMakeFiles/cmTC_eaf12.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc9K60RG.s
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o /tmp/cc9K60RG.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_eaf12
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaf12.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o -o cmTC_eaf12 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_eaf12' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNcxqrK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_eaf12 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_eaf12' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_eaf12/fast && /usr/bin/make  -f CMakeFiles/cmTC_eaf12.dir/build.make CMakeFiles/cmTC_eaf12.dir/build]
+  ignore line: [make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.20/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc9K60RG.s]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o /tmp/cc9K60RG.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_eaf12]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaf12.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o -o cmTC_eaf12 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_eaf12' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNcxqrK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_eaf12 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNcxqrK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_eaf12] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_eaf12.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8732e/fast && /usr/bin/make  -f CMakeFiles/cmTC_8732e.dir/build.make CMakeFiles/cmTC_8732e.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8732e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8732e.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8732e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8732e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_8732e.dir/CheckIncludeFile.c.o -o cmTC_8732e 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_092db/fast && /usr/bin/make  -f CMakeFiles/cmTC_092db.dir/build.make CMakeFiles/cmTC_092db.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_092db.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_092db.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_092db
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_092db.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_092db.dir/CheckSymbolExists.c.o -o cmTC_092db 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cfc68/fast && /usr/bin/make  -f CMakeFiles/cmTC_cfc68.dir/build.make CMakeFiles/cmTC_cfc68.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfc68.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_cfc68.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cfc68
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfc68.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_cfc68.dir/CheckIncludeFile.c.o -o cmTC_cfc68  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e3521/fast && /usr/bin/make  -f CMakeFiles/cmTC_e3521.dir/build.make CMakeFiles/cmTC_e3521.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e3521.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_e3521.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e3521
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3521.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e3521.dir/CheckIncludeFile.c.o -o cmTC_e3521  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1021b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1021b.dir/build.make CMakeFiles/cmTC_1021b.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1021b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_1021b.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1021b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1021b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_1021b.dir/CheckIncludeFile.c.o -o cmTC_1021b  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f671c/fast && /usr/bin/make  -f CMakeFiles/cmTC_f671c.dir/build.make CMakeFiles/cmTC_f671c.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f671c.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f671c.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f671c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f671c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f671c.dir/CheckIncludeFile.c.o -o cmTC_f671c  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9fbb3/fast && /usr/bin/make  -f CMakeFiles/cmTC_9fbb3.dir/build.make CMakeFiles/cmTC_9fbb3.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9fbb3.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_9fbb3.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9fbb3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fbb3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9fbb3.dir/CheckIncludeFile.c.o -o cmTC_9fbb3  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1cdf7/fast && /usr/bin/make  -f CMakeFiles/cmTC_1cdf7.dir/build.make CMakeFiles/cmTC_1cdf7.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cdf7.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_1cdf7.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1cdf7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cdf7.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_1cdf7.dir/CheckIncludeFile.c.o -o cmTC_1cdf7  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_75600/fast && /usr/bin/make  -f CMakeFiles/cmTC_75600.dir/build.make CMakeFiles/cmTC_75600.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75600.dir/STDC_HEADERS.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_75600.dir/STDC_HEADERS.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
+Linking C executable cmTC_75600
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75600.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_75600.dir/STDC_HEADERS.c.o -o cmTC_75600  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_775c2/fast && /usr/bin/make  -f CMakeFiles/cmTC_775c2.dir/build.make CMakeFiles/cmTC_775c2.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_775c2.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_775c2.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_775c2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_775c2.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_775c2.dir/CheckIncludeFile.c.o -o cmTC_775c2  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_90153/fast && /usr/bin/make  -f CMakeFiles/cmTC_90153.dir/build.make CMakeFiles/cmTC_90153.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90153.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_90153.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90153
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90153.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_90153.dir/CheckIncludeFile.c.o -o cmTC_90153  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8d00f/fast && /usr/bin/make  -f CMakeFiles/cmTC_8d00f.dir/build.make CMakeFiles/cmTC_8d00f.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d00f.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_8d00f.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8d00f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d00f.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_8d00f.dir/CheckIncludeFile.c.o -o cmTC_8d00f  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file endian.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7a9be/fast && /usr/bin/make  -f CMakeFiles/cmTC_7a9be.dir/build.make CMakeFiles/cmTC_7a9be.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a9be.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_7a9be.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7a9be
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a9be.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7a9be.dir/CheckIncludeFile.c.o -o cmTC_7a9be  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b71e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_b71e5.dir/build.make CMakeFiles/cmTC_b71e5.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b71e5.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_b71e5.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b71e5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b71e5.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b71e5.dir/CheckIncludeFile.c.o -o cmTC_b71e5  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_09cf6/fast && /usr/bin/make  -f CMakeFiles/cmTC_09cf6.dir/build.make CMakeFiles/cmTC_09cf6.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09cf6.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_09cf6.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_09cf6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09cf6.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_09cf6.dir/CheckIncludeFile.c.o -o cmTC_09cf6  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_30bcc/fast && /usr/bin/make  -f CMakeFiles/cmTC_30bcc.dir/build.make CMakeFiles/cmTC_30bcc.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30bcc.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_30bcc.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30bcc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30bcc.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_30bcc.dir/CheckIncludeFile.c.o -o cmTC_30bcc  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dee38/fast && /usr/bin/make  -f CMakeFiles/cmTC_dee38.dir/build.make CMakeFiles/cmTC_dee38.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dee38.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_dee38.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dee38
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dee38.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_dee38.dir/CheckIncludeFile.c.o -o cmTC_dee38  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7df0e/fast && /usr/bin/make  -f CMakeFiles/cmTC_7df0e.dir/build.make CMakeFiles/cmTC_7df0e.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7df0e.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_7df0e.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7df0e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7df0e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7df0e.dir/CheckIncludeFile.c.o -o cmTC_7df0e  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/cdefs.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_30725/fast && /usr/bin/make  -f CMakeFiles/cmTC_30725.dir/build.make CMakeFiles/cmTC_30725.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30725.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_30725.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_30725
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30725.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_30725.dir/CheckIncludeFile.c.o -o cmTC_30725  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_481ee/fast && /usr/bin/make  -f CMakeFiles/cmTC_481ee.dir/build.make CMakeFiles/cmTC_481ee.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_481ee.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_481ee.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_481ee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_481ee.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_481ee.dir/CheckIncludeFile.c.o -o cmTC_481ee  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52c7e/fast && /usr/bin/make  -f CMakeFiles/cmTC_52c7e.dir/build.make CMakeFiles/cmTC_52c7e.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52c7e.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_52c7e.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_52c7e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52c7e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_52c7e.dir/CheckIncludeFile.c.o -o cmTC_52c7e  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the INFINITY exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_49e5d/fast && /usr/bin/make  -f CMakeFiles/cmTC_49e5d.dir/build.make CMakeFiles/cmTC_49e5d.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49e5d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_49e5d.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_49e5d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49e5d.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_49e5d.dir/CheckSymbolExists.c.o -o cmTC_49e5d  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INFINITY
+  return ((int*)(&INFINITY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isinf exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a34c4/fast && /usr/bin/make  -f CMakeFiles/cmTC_a34c4.dir/build.make CMakeFiles/cmTC_a34c4.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a34c4.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_a34c4.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a34c4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a34c4.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a34c4.dir/CheckSymbolExists.c.o -o cmTC_a34c4  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_21bf2/fast && /usr/bin/make  -f CMakeFiles/cmTC_21bf2.dir/build.make CMakeFiles/cmTC_21bf2.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21bf2.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_21bf2.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_21bf2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21bf2.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_21bf2.dir/CheckSymbolExists.c.o -o cmTC_21bf2  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nan exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4e80a/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e80a.dir/build.make CMakeFiles/cmTC_4e80a.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e80a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_4e80a.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4e80a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e80a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4e80a.dir/CheckSymbolExists.c.o -o cmTC_4e80a  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nan
+  return ((int*)(&nan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e0c26/fast && /usr/bin/make  -f CMakeFiles/cmTC_e0c26.dir/build.make CMakeFiles/cmTC_e0c26.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0c26.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_e0c26.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e0c26
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0c26.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e0c26.dir/CheckSymbolExists.c.o -o cmTC_e0c26  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f4e06/fast && /usr/bin/make  -f CMakeFiles/cmTC_f4e06.dir/build.make CMakeFiles/cmTC_f4e06.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4e06.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f4e06.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f4e06
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4e06.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f4e06.dir/CheckSymbolExists.c.o -o cmTC_f4e06  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1a8e5/fast && /usr/bin/make  -f CMakeFiles/cmTC_1a8e5.dir/build.make CMakeFiles/cmTC_1a8e5.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a8e5.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_1a8e5.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1a8e5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a8e5.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_1a8e5.dir/CheckSymbolExists.c.o -o cmTC_1a8e5  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vprintf exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bb4a4/fast && /usr/bin/make  -f CMakeFiles/cmTC_bb4a4.dir/build.make CMakeFiles/cmTC_bb4a4.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb4a4.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_bb4a4.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bb4a4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb4a4.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_bb4a4.dir/CheckSymbolExists.c.o -o cmTC_bb4a4  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vprintf
+  return ((int*)(&vprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the open exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_65495/fast && /usr/bin/make  -f CMakeFiles/cmTC_65495.dir/build.make CMakeFiles/cmTC_65495.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65495.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_65495.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_65495
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65495.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_65495.dir/CheckSymbolExists.c.o -o cmTC_65495  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open
+  return ((int*)(&open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realloc exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11d90/fast && /usr/bin/make  -f CMakeFiles/cmTC_11d90.dir/build.make CMakeFiles/cmTC_11d90.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11d90.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_11d90.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_11d90
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11d90.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_11d90.dir/CheckSymbolExists.c.o -o cmTC_11d90  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_14940/fast && /usr/bin/make  -f CMakeFiles/cmTC_14940.dir/build.make CMakeFiles/cmTC_14940.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14940.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_14940.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_14940
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14940.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_14940.dir/CheckSymbolExists.c.o -o cmTC_14940  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the uselocale exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f6e64/fast && /usr/bin/make  -f CMakeFiles/cmTC_f6e64.dir/build.make CMakeFiles/cmTC_f6e64.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6e64.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f6e64.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f6e64
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6e64.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f6e64.dir/CheckSymbolExists.c.o -o cmTC_f6e64  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uselocale
+  return ((int*)(&uselocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f12aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_f12aa.dir/build.make CMakeFiles/cmTC_f12aa.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f12aa.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f12aa.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f12aa
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f12aa.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f12aa.dir/CheckSymbolExists.c.o -o cmTC_f12aa  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_41776/fast && /usr/bin/make  -f CMakeFiles/cmTC_41776.dir/build.make CMakeFiles/cmTC_41776.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41776.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_41776.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_41776
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41776.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_41776.dir/CheckSymbolExists.c.o -o cmTC_41776  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strdup exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e8e73/fast && /usr/bin/make  -f CMakeFiles/cmTC_e8e73.dir/build.make CMakeFiles/cmTC_e8e73.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8e73.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_e8e73.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e8e73
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8e73.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e8e73.dir/CheckSymbolExists.c.o -o cmTC_e8e73  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_98f1b/fast && /usr/bin/make  -f CMakeFiles/cmTC_98f1b.dir/build.make CMakeFiles/cmTC_98f1b.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98f1b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_98f1b.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_98f1b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f1b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_98f1b.dir/CheckSymbolExists.c.o -o cmTC_98f1b  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsyslog exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b3f93/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3f93.dir/build.make CMakeFiles/cmTC_b3f93.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3f93.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_b3f93.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b3f93
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3f93.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b3f93.dir/CheckSymbolExists.c.o -o cmTC_b3f93  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <syslog.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsyslog
+  return ((int*)(&vsyslog))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_63408/fast && /usr/bin/make  -f CMakeFiles/cmTC_63408.dir/build.make CMakeFiles/cmTC_63408.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63408.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_63408.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_63408
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63408.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_63408.dir/CheckSymbolExists.c.o -o cmTC_63408  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull exist passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7a54a/fast && /usr/bin/make  -f CMakeFiles/cmTC_7a54a.dir/build.make CMakeFiles/cmTC_7a54a.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a54a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_7a54a.dir/CheckSymbolExists.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7a54a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a54a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7a54a.dir/CheckSymbolExists.c.o -o cmTC_7a54a  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+File /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_efa32/fast && /usr/bin/make  -f CMakeFiles/cmTC_efa32.dir/build.make CMakeFiles/cmTC_efa32.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_efa32.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_efa32.dir/CheckIncludeFile.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_efa32
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efa32.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_efa32.dir/CheckIncludeFile.c.o -o cmTC_efa32  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b47df/fast && /usr/bin/make  -f CMakeFiles/cmTC_b47df.dir/build.make CMakeFiles/cmTC_b47df.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b47df.dir/SIZEOF_INT.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_b47df.dir/SIZEOF_INT.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_b47df
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b47df.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b47df.dir/SIZEOF_INT.c.o -o cmTC_b47df  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_016e4/fast && /usr/bin/make  -f CMakeFiles/cmTC_016e4.dir/build.make CMakeFiles/cmTC_016e4.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_016e4.dir/SIZEOF_INT64_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_016e4.dir/SIZEOF_INT64_T.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+Linking C executable cmTC_016e4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_016e4.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_016e4.dir/SIZEOF_INT64_T.c.o -o cmTC_016e4  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_14617/fast && /usr/bin/make  -f CMakeFiles/cmTC_14617.dir/build.make CMakeFiles/cmTC_14617.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14617.dir/SIZEOF_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_14617.dir/SIZEOF_LONG.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_14617
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14617.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_14617.dir/SIZEOF_LONG.c.o -o cmTC_14617  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a4244/fast && /usr/bin/make  -f CMakeFiles/cmTC_a4244.dir/build.make CMakeFiles/cmTC_a4244.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4244.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_a4244.dir/SIZEOF_LONG_LONG.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_a4244
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4244.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a4244.dir/SIZEOF_LONG_LONG.c.o -o cmTC_a4244  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_739da/fast && /usr/bin/make  -f CMakeFiles/cmTC_739da.dir/build.make CMakeFiles/cmTC_739da.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_739da.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_739da.dir/SIZEOF_SIZE_T.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_739da
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_739da.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_739da.dir/SIZEOF_SIZE_T.c.o -o cmTC_739da  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_07a35/fast && /usr/bin/make  -f CMakeFiles/cmTC_07a35.dir/build.make CMakeFiles/cmTC_07a35.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07a35.dir/SIZEOF_SSIZE_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_07a35.dir/SIZEOF_SSIZE_T.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
+Linking C executable cmTC_07a35
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07a35.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_07a35.dir/SIZEOF_SSIZE_T.c.o -o cmTC_07a35  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS succeeded with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4f203/fast && /usr/bin/make  -f CMakeFiles/cmTC_4f203.dir/build.make CMakeFiles/cmTC_4f203.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f203.dir/src.c.o
+/usr/bin/cc -DHAVE_ATOMIC_BUILTINS -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_4f203.dir/src.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4f203
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f203.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4f203.dir/src.c.o -o cmTC_4f203  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { int i, x = 0; i = __sync_add_and_fetch(&x,1); return x; }
+Performing C SOURCE FILE Test HAVE___THREAD succeeded with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_65113/fast && /usr/bin/make  -f CMakeFiles/cmTC_65113.dir/build.make CMakeFiles/cmTC_65113.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65113.dir/src.c.o
+/usr/bin/cc -DHAVE___THREAD -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_65113.dir/src.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_65113
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65113.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_65113.dir/src.c.o -o cmTC_65113  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__thread int x = 0; int main() { return 0; }
+Performing C SOURCE FILE Test REENTRANT_WORKS succeeded with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6c345/fast && /usr/bin/make  -f CMakeFiles/cmTC_6c345.dir/build.make CMakeFiles/cmTC_6c345.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c345.dir/src.c.o
+/usr/bin/cc -DREENTRANT_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -fPIE -o CMakeFiles/cmTC_6c345.dir/src.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6c345
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c345.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -rdynamic CMakeFiles/cmTC_6c345.dir/src.c.o -o cmTC_6c345  -lm 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+	/* uClibc toolchains without threading barf when _REENTRANT is defined */
+	#define _REENTRANT 1
+	#include <sys/types.h>
+	int main (void)
+	{
+	  return 0;
+	}
+	
+Performing C SOURCE FILE Test BSYMBOLIC_WORKS succeeded with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9601b/fast && /usr/bin/make  -f CMakeFiles/cmTC_9601b.dir/build.make CMakeFiles/cmTC_9601b.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9601b.dir/src.c.o
+/usr/bin/cc -DBSYMBOLIC_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -fPIE -o CMakeFiles/cmTC_9601b.dir/src.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9601b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9601b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -rdynamic CMakeFiles/cmTC_9601b.dir/src.c.o -o cmTC_9601b  -lm -Wl,-Bsymbolic-functions 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	
+Performing C SOURCE FILE Test VERSION_SCRIPT_WORKS succeeded with the following output:
+Change Dir: /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9e6ba/fast && /usr/bin/make  -f CMakeFiles/cmTC_9e6ba.dir/build.make CMakeFiles/cmTC_9e6ba.dir/build
+make[1]: Entering directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e6ba.dir/src.c.o
+/usr/bin/cc -DVERSION_SCRIPT_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -fPIE -o CMakeFiles/cmTC_9e6ba.dir/src.c.o -c /home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9e6ba
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e6ba.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -rdynamic CMakeFiles/cmTC_9e6ba.dir/src.c.o -o cmTC_9e6ba  -lm -Wl,--version-script,/home/qba/git/afb-libafb/tis/build/json-c/check-version-script.sym 
+make[1]: Leaving directory '/home/qba/git/afb-libafb/tis/build/json-c/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	
