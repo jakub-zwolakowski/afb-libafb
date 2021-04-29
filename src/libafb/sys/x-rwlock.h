@@ -32,4 +32,8 @@
 #define x_rwlock_wrlock(prwlock)       pthread_rwlock_wrlock(prwlock)
 #define x_rwlock_trywrlock(prwlock)    pthread_rwlock_trywrlock(prwlock)
 #define x_rwlock_unlock(prwlock)       pthread_rwlock_unlock(prwlock)
+#ifdef __TRUSTINSOFT_ANALYZER__
+#define X_RWLOCK_INITIALIZER           { 1, { 0 } }
+#else
 #define X_RWLOCK_INITIALIZER           PTHREAD_RWLOCK_INITIALIZER
+#endif

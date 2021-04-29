@@ -44,6 +44,7 @@ int afb_apiname_is_valid(const char *apiname)
 				if (c > ' ')
 					break;
 				/*@fallthrough@*/
+				;
 			case '"':
 			case '#':
 			case '%':

@@ -11,3 +11,33 @@ int __sync_val_compare_and_swap_int32_t (int * p, int a, int b, ...) {
 int setjmp(jmp_buf env) {
   return 0;
 }
+
+int isatty(int fd) {
+  return 0;
+}
+
+#include <time.h>
+
+time_t time(time_t *tloc) {
+  return 99;
+}
+
+int clock_gettime(clockid_t clk_id, struct timespec *tp) {
+  tp->tv_sec = 42;
+  tp->tv_nsec = 42;
+  return 0;
+}
+
+#include <unistd.h>
+
+pid_t getpid(void) {
+  return 42;
+}
+
+void srand(unsigned int seed) {
+  return;
+}
+
+int rand(void) {
+  return 137;
+}

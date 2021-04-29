@@ -25,7 +25,7 @@
 #define _CHECK_CHECK_STDINT_H 1
 #ifndef _GENERATED_STDINT_H
 #define _GENERATED_STDINT_H "Check 0.15.2"
-/* generated using CMake 3.16.3 from file cmake/check_stdint.h.in */
+/* generated using CMake 3.20.1 from file cmake/check_stdint.h.in */
 
 /* Imported CMake variables created during build. */
 #define HAVE_STDINT_H 1

@@ -18,6 +18,16 @@
 #define _json_object_h_
 
 #ifdef __GNUC__
+#define THIS_FUNCTION_IS_DEPRECATED(func) func __attribute__((deprecated))
+#elif defined(_MSC_VER)
+#define THIS_FUNCTION_IS_DEPRECATED(func) __declspec(deprecated) func
+#elif defined(__clang__)
+#define THIS_FUNCTION_IS_DEPRECATED(func) func __deprecated
+#else
+#define THIS_FUNCTION_IS_DEPRECATED(func) func
+#endif
+
+#ifdef __GNUC__
 #define JSON_C_CONST_FUNCTION(func) func __attribute__((const))
 #else
 #define JSON_C_CONST_FUNCTION(func) func
@@ -123,43 +133,21 @@ extern "C" {
 /* reference counting functions */
 
 /**
- * Increment the reference count of json_object, thereby taking ownership of it.
- *
- * Cases where you might need to increase the refcount include:
- * - Using an object field or array index (retrieved through
- *    `json_object_object_get()` or `json_object_array_get_idx()`)
- *    beyond the lifetime of the parent object.
- * - Detaching an object field or array index from its parent object
- *    (using `json_object_object_del()` or `json_object_array_del_idx()`)
- * - Sharing a json_object with multiple (not necesarily parallel) threads
- *    of execution that all expect to free it (with `json_object_put()`) when
- *    they're done.
+ * Increment the reference count of json_object, thereby grabbing shared
+ * ownership of obj.
  *
  * @param obj the json_object instance
- * @see json_object_put()
- * @see json_object_object_get()
- * @see json_object_array_get_idx()
  */
 JSON_EXPORT struct json_object *json_object_get(struct json_object *obj);
 
 /**
  * Decrement the reference count of json_object and free if it reaches zero.
- *
  * You must have ownership of obj prior to doing this or you will cause an
- * imbalance in the reference count, leading to a classic use-after-free bug.
- * In particular, you normally do not need to call `json_object_put()` on the
- * json_object returned by `json_object_object_get()` or `json_object_array_get_idx()`.
- *
- * Just like after calling `free()` on a block of memory, you must not use
- * `obj` after calling `json_object_put()` on it or any object that it
- * is a member of (unless you know you've called `json_object_get(obj)` to
- * explicitly increment the refcount).
- *
- * NULL may be passed, which which case this is a no-op.
+ * imbalance in the reference count.
+ * An obj of NULL may be passed; in that case this call is a no-op.
  *
  * @param obj the json_object instance
  * @returns 1 if the object was freed.
- * @see json_object_get()
  */
 JSON_EXPORT int json_object_put(struct json_object *obj);
 
@@ -359,21 +347,15 @@ JSON_C_CONST_FUNCTION(JSON_EXPORT size_t json_c_object_sizeof(void));
 
 /** Add an object field to a json_object of type json_type_object
  *
- * The reference count of `val` will *not* be incremented, in effect
- * transferring ownership that object to `obj`, and thus `val` will be
- * freed when `obj` is.  (i.e. through `json_object_put(obj)`)
+ * The reference count will *not* be incremented. This is to make adding
+ * fields to objects in code more compact. If you want to retain a reference
+ * to an added object, independent of the lifetime of obj, you must wrap the
+ * passed object with json_object_get.
  *
- * If you want to retain a reference to the added object, independent
- * of the lifetime of obj, you must increment the refcount with
- * `json_object_get(val)` (and later release it with json_object_put()).
- *
- * Since ownership transfers to `obj`, you must make sure
- * that you do in fact have ownership over `val`.  For instance,
- * json_object_new_object() will give you ownership until you transfer it,
- * whereas json_object_object_get() does not.
- *
- * Any previous object stored under `key` in `obj` will have its refcount
- * decremented, and be freed normally if that drops to zero.
+ * Upon calling this, the ownership of val transfers to obj.  Thus you must
+ * make sure that you do in fact have ownership over this object.  For instance,
+ * json_object_new_object will give you ownership until you transfer it,
+ * whereas json_object_object_get does not.
  *
  * @param obj the json_object instance
  * @param key the object field name (a private copy will be duplicated)
@@ -396,7 +378,7 @@ JSON_EXPORT int json_object_object_add(struct json_object *obj, const char *key,
  * @param key the object field name (a private copy will be duplicated)
  * @param val a json_object or NULL member to associate with the given field
  * @param opts process-modifying options. To specify multiple options, use
- *             (OPT1|OPT2)
+ *             arithmetic or (OPT1|OPT2)
  */
 JSON_EXPORT int json_object_object_add_ex(struct json_object *obj, const char *const key,
                                           struct json_object *const val, const unsigned opts);
@@ -605,15 +587,7 @@ JSON_EXPORT int json_object_array_add(struct json_object *obj, struct json_objec
 JSON_EXPORT int json_object_array_put_idx(struct json_object *obj, size_t idx,
                                           struct json_object *val);
 
-/** Get the element at specified index of array `obj` (which must be a json_object of type json_type_array)
- *
- * *No* reference counts will be changed, and ownership of the returned
- * object remains with `obj`.  See json_object_object_get() for additional
- * implications of this behavior.
- *
- * Calling this with anything other than a json_type_array will trigger
- * an assert.
- *
+/** Get the element at specified index of the array (a json_object of type json_type_array)
  * @param obj the json_object instance
  * @param idx the index to get the element at
  * @returns the json_object at the specified index (or NULL)
@@ -656,9 +630,8 @@ JSON_EXPORT struct json_object *json_object_new_boolean(json_bool b);
  * The type is coerced to a json_bool if the passed object is not a json_bool.
  * integer and double objects will return 0 if there value is zero
  * or 1 otherwise. If the passed object is a string it will return
- * 1 if it has a non zero length. 
- * If any other object type is passed 0 will be returned, even non-empty
- *  json_type_array and json_type_object objects.
+ * 1 if it has a non zero length. If any other object type is passed
+ * 1 will be returned if the object is not NULL.
  *
  * @param obj the json_object instance
  * @returns a json_bool
