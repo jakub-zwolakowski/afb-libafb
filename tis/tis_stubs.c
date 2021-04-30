@@ -41,3 +41,9 @@ void srand(unsigned int seed) {
 int rand(void) {
   return 137;
 }
+
+#include <sys/uio.h>
+
+ssize_t writev(int fd, const struct iovec *iov, int iovcnt) {
+  return 42;
+}
