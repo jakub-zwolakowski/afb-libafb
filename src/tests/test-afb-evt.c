@@ -144,18 +144,18 @@ START_TEST (test_init)
 
     fprintf(stderr, "\n## afb_evt_addref...\n");
 	ev = afb_evt_addref_hookable(evt);
-	fprintf(stderr, "-> ev = %p\n", ev);
+	fprintf(stderr, "-> ev = %p\n", (void *) ev);
 	ck_assert_ptr_eq(ev, evt);
     afb_evt_unref_hookable(evt);
 
     fprintf(stderr, "\n## afb_evt_listener_create...\n");
 	ev_listener = afb_evt_listener_create(&ev_itf, NULL);
-	fprintf(stderr, "-> ev_listener = %p\n", ev_listener);
+	fprintf(stderr, "-> ev_listener = %p\n", (void *) ev_listener);
 	ck_assert_ptr_ne(ev_listener, NULL);
 
     fprintf(stderr, "\n## afb_evt_listener_addref...\n");
 	rc_ev_listener = afb_evt_listener_addref(ev_listener);
-	fprintf(stderr, "-> rc_ev_listener = %p\n", rc_ev_listener);
+	fprintf(stderr, "-> rc_ev_listener = %p\n", (void *) rc_ev_listener);
 	ck_assert_ptr_eq(rc_ev_listener, ev_listener);
     afb_evt_listener_unref(rc_ev_listener);
 
