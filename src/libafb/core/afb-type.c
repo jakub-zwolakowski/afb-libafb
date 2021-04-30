@@ -38,6 +38,28 @@
 
 /*****************************************************************************/
 
+#ifdef __TRUSTINSOFT_ANALYZER__
+struct afb_type _afb_type_head_of_predefineds_ = {
+	/** name */
+	name: "YOLO",
+
+	/** link to next type */
+	next: NULL,
+
+	/** link to direct ancestor of family */
+	family: NULL,
+
+	/** operations */
+	operations: NULL,
+
+	/** count of operations */
+	op_count: 0,
+
+	/** flags */
+	flags: 0
+};
+#endif
+
 /* the types */
 static struct afb_type *known_types = &_afb_type_head_of_predefineds_;
 
