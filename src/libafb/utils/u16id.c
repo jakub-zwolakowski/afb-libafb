@@ -28,6 +28,12 @@
 #include "utils/u16id.h"
 #include "sys/x-errno.h"
 
+#ifdef __TRUSTINSOFT_ANALYZER__
+#include <stddef.h>
+#include <stdlib.h>
+#endif
+
+
 /* compute P, the count of bits of pointers */
 #if UINTPTR_MAX == (18446744073709551615UL)
 #  define P 64
