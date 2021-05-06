@@ -125,3 +125,10 @@ int pthread_attr_setdetachstate(pthread_attr_t *attr, int detachstate)
 
 // int pthread_attr_getdetachstate(const pthread_attr_t *attr,
 //                                 int *detachstate);
+
+#include <sys/socket.h>
+
+int socketpair(int domain, int type, int protocol, int sv[2])
+{
+  return 0;
+}
