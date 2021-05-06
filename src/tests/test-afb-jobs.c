@@ -67,7 +67,9 @@ void timeout_test_job(int sig, void * arg){
 	fprintf(stderr, "timeout_test_job received sig %d with arg %d\n", sig, p2i(arg));
 	if(sig == 0){
 		gval+=2;
+#ifndef __TRUSTINSOFT_ANALYZER__
 		for(;;);
+#endif
 		gval++;
 	}
 	else if ( sig == SIGVTALRM || sig == SIGABRT ) {
