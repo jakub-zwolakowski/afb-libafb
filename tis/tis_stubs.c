@@ -106,7 +106,24 @@ void *dlopen(const char *filename, int flag)
 
 char *dlerror(void)
 {
-    return "STUB ERROR FROM dlerror";
+  return "STUB ERROR FROM dlerror";
 }
 
 // void *dlsym(void *handle, const char *symbol);
+
+#include <pthread.h>
+
+int pthread_attr_init(pthread_attr_t *attr)
+{
+  return 0;
+}
+
+// int pthread_attr_destroy(pthread_attr_t *attr);
+
+int pthread_attr_setdetachstate(pthread_attr_t *attr, int detachstate)
+{
+  return 0;
+}
+
+// int pthread_attr_getdetachstate(const pthread_attr_t *attr,
+//                                 int *detachstate);
