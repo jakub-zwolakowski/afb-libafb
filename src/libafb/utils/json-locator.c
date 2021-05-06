@@ -179,6 +179,15 @@ void *realloc(void *ptr, size_t size)
 #else
 #pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 
+#ifdef __TRUSTINSOFT_ANALYZER__
+void *(*volatile __malloc_hook)(size_t size, const void *caller);
+void *(*volatile __realloc_hook)(void *ptr, size_t size, const void *caller);
+void *(*volatile __memalign_hook)(size_t alignment, size_t size, const void *caller);
+void (*volatile __free_hook)(void *ptr, const void *caller);
+void (*__malloc_initialize_hook)(void);
+void (*volatile __after_morecore_hook)(void);
+#endif
+
 static void *(*memo_malloc)(size_t size, const void *caller);
 static void *(*memo_realloc)(void *ptr, size_t size, const void *caller);
 static void *(*memo_memalign)(size_t alignment, size_t size, const void *caller);
