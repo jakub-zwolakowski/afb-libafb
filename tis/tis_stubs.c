@@ -23,10 +23,12 @@ int isatty(int fd)
 
 #include <time.h>
 
-time_t time(time_t *tloc)
-{
-  return 99;
-}
+// // Stub included thanks to TIS_DETERMINISTIC_LIBC
+//
+// time_t time(time_t *tloc)
+// {
+//   return 99;
+// }
 
 int clock_gettime(clockid_t clk_id, struct timespec *tp)
 {
@@ -42,24 +44,28 @@ pid_t getpid(void)
   return 42;
 }
 
-void srand(unsigned int seed)
-{
-  return;
-}
-
-int rand(void)
-{
-  return 137;
-}
+// // Stubs included thanks to TIS_DETERMINISTIC_LIBC
+//
+// void srand(unsigned int seed)
+// {
+//   return;
+// }
+//
+// int rand(void)
+// {
+//   return 137;
+// }
 
 #include <sys/uio.h>
 
 #if 0
+// Simpliest of stubs
 ssize_t writev(int fd, const struct iovec *iov, int iovcnt)
 {
   return 42;
 }
 #else
+// Naive stub
 ssize_t writev(int fd, const struct iovec *iov, int iovcnt)
 {
   ssize_t written_total = 0;
