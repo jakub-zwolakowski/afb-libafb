@@ -87,3 +87,11 @@ ssize_t writev(int fd, const struct iovec *iov, int iovcnt)
   return written_total;
 }
 #endif
+
+#include <stdlib.h>
+#include <stdio.h>
+
+char *secure_getenv(const char *name) {
+  printf("secure_getenv(%s)\n", name);
+  return NULL;
+}

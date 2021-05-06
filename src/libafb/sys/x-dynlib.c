@@ -30,6 +30,10 @@
 #include <stdlib.h>
 #include <dlfcn.h>
 
+#ifdef __TRUSTINSOFT_ANALYZER__
+char *secure_getenv(const char *name);
+#endif
+
 #include "x-dynlib.h"
 #include "x-errno.h"
 
