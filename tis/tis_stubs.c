@@ -91,7 +91,22 @@ ssize_t writev(int fd, const struct iovec *iov, int iovcnt)
 #include <stdlib.h>
 #include <stdio.h>
 
-char *secure_getenv(const char *name) {
-  printf("secure_getenv(%s)\n", name);
+char *secure_getenv(const char *name)
+{
+  printf("STUB CALL secure_getenv(%s)\n", name);
   return NULL;
 }
+
+#include <dlfcn.h>
+
+void *dlopen(const char *filename, int flag)
+{
+  return NULL;
+}
+
+char *dlerror(void)
+{
+    return "STUB ERROR FROM dlerror";
+}
+
+// void *dlsym(void *handle, const char *symbol);
