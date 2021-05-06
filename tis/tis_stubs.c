@@ -49,12 +49,10 @@ void srand(unsigned int seed)
   return;
 }
 
-// // Stub included thanks to TIS_DETERMINISTIC_LIBC
-//
-// int rand(void)
-// {
-//   return 137;
-// }
+int rand(void)
+{
+  return 137;
+}
 
 #include <sys/uio.h>
 
