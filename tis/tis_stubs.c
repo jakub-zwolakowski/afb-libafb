@@ -44,12 +44,12 @@ pid_t getpid(void)
   return 42;
 }
 
-// // Stubs included thanks to TIS_DETERMINISTIC_LIBC
-//
-// void srand(unsigned int seed)
-// {
-//   return;
-// }
+void srand(unsigned int seed)
+{
+  return;
+}
+
+// // Stub included thanks to TIS_DETERMINISTIC_LIBC
 //
 // int rand(void)
 // {
