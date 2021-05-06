@@ -33,5 +33,8 @@
 #define x_cond_wait(pcond,pmutex) pthread_cond_wait(pcond,pmutex)
 #define x_cond_signal(pcond)      pthread_cond_signal(pcond)
 #define x_cond_broadcast(pcond)   pthread_cond_broadcast(pcond)
+#ifdef __TRUSTINSOFT_ANALYZER__
+#define X_COND_INITIALIZER        { 1 }
+#else
 #define X_COND_INITIALIZER        PTHREAD_COND_INITIALIZER
-
+#endif

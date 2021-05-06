@@ -30,5 +30,8 @@
 #define x_mutex_destroy(pmutex)  pthread_mutex_destroy(pmutex)
 #define x_mutex_lock(pmutex)     pthread_mutex_lock(pmutex)
 #define x_mutex_unlock(pmutex)   pthread_mutex_unlock(pmutex)
+#ifdef __TRUSTINSOFT_ANALYZER__
+#define X_MUTEX_INITIALIZER      0x00
+#else
 #define X_MUTEX_INITIALIZER      PTHREAD_MUTEX_INITIALIZER
-
+#endif
