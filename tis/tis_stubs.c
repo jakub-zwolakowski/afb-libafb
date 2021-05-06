@@ -155,3 +155,9 @@ int epoll_wait(int epfd, struct epoll_event *events,
 {
   return 1;
 }
+
+// Workaround for TRUS-2308
+void tis_make_unknown(char *__p, unsigned long __l)
+{
+    return;
+}
