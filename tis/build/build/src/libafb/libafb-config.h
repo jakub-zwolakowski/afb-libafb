@@ -54,7 +54,8 @@
 #define WITH_L4VSOCK 0
 #define WITH_LIBUUID 0
 #define WITH_EPOLL 1
-#define WITH_EVENTFD 1
+// #define WITH_EVENTFD 1 // DISABLED BY Qba
+#define WITH_EVENTFD 0
 #define WITH_FDEV_SYSTEMD 1
 #define WITH_FDEV_EPOLL 0
 #define WITH_FDEV_POLL 0

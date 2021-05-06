@@ -132,3 +132,34 @@ int socketpair(int domain, int type, int protocol, int sv[2])
 {
   return 0;
 }
+
+#include <sys/epoll.h>
+
+int epoll_create(int size)
+{
+  return 42;
+}
+
+int epoll_create1(int flags)
+{
+  return 42;
+}
+
+int epoll_ctl(int epfd, int op, int fd, struct epoll_event *event)
+{
+  return 0;
+}
+
+int epoll_wait(int epfd, struct epoll_event *events,
+               int maxevents, int timeout)
+{
+  return 1;
+}
+
+// int epoll_pwait(int epfd, struct epoll_event *events,
+//                 int maxevents, int timeout,
+//                 const sigset_t *sigmask);
+
+// int epoll_pwait2(int epfd, struct epoll_event *events,
+//                  int maxevents, const struct timespec *timeout,
+//                  const sigset_t *sigmask);
